@@ -1,63 +1,0 @@
-
-fsquid:S2184&"@Cast one of the operands of this addition operation to a "long".(öªÕÆH¿RMINORZBUG
-Œsquid:S1450"ZRemove the "problemName" field and declare it as a local variable in the relevant methods.(½„¯ÊşÿÿÿÿHÀRMINORZ
-CODE_SMELL
-ƒsquid:S3457-"Q%n should be used in place of \n to produce the platform-specific line separator.(« Æ¹ùÿÿÿÿHÁRMAJORZ
-CODE_SMELL
-j
-squid:S106-"9Replace this use of System.out or System.err by a logger.(« Æ¹ùÿÿÿÿHÂRMAJORZ
-CODE_SMELL
-j
-squid:S106/"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿHÃRMAJORZ
-CODE_SMELL
-e
-squid:S1069"9Replace this use of System.out or System.err by a logger.(×Ş‹ôHÄRMAJORZ
-CODE_SMELL
-j
-squid:S106:"9Replace this use of System.out or System.err by a logger.(Ñú¶ÔûÿÿÿÿHÅRMAJORZ
-CODE_SMELL
-j
-squid:S106<"9Replace this use of System.out or System.err by a logger.(ùË¤óüÿÿÿÿHÆRMAJORZ
-CODE_SMELL
-j
-squid:S106>"9Replace this use of System.out or System.err by a logger.(ó¯¹ûÿÿÿÿHÇRMAJORZ
-CODE_SMELL
-e
-squid:S106@"9Replace this use of System.out or System.err by a logger.(ëĞ‡ŞHÈRMAJORZ
-CODE_SMELL
-j
-squid:S106A"9Replace this use of System.out or System.err by a logger.(›æ§õûÿÿÿÿHÉRMAJORZ
-CODE_SMELL
-e
-squid:S106B"9Replace this use of System.out or System.err by a logger.(×Ş‹ôHÊRMAJORZ
-CODE_SMELL
-j
-squid:S106O"9Replace this use of System.out or System.err by a logger.(„ñŞêøÿÿÿÿHËRMAJORZ
-CODE_SMELL
-j
-squid:S106t"9Replace this use of System.out or System.err by a logger.(›Úâ‚ûÿÿÿÿHÌRMAJORZ
-CODE_SMELL
-dsquid:S1854„"6Remove this useless assignment to local variable "br".(ßÅÍ”HÍRMAJORZ
-CODE_SMELL
-k
-squid:S106Š"9Replace this use of System.out or System.err by a logger.(ù° ‘ùÿÿÿÿHÎRMAJORZ
-CODE_SMELL
-k
-squid:S106š"9Replace this use of System.out or System.err by a logger.(øºÑûúÿÿÿÿHÏRMAJORZ
-CODE_SMELL
-k
-squid:S106"9Replace this use of System.out or System.err by a logger.(ï“¼¬şÿÿÿÿHĞRMAJORZ
-CODE_SMELL
-]squid:S00108 ")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿHÑRMAJORZ
-CODE_SMELL
-f
-squid:S106¬"9Replace this use of System.out or System.err by a logger.( ®µHÒRMAJORZ
-CODE_SMELL
-k
-squid:S106¸"9Replace this use of System.out or System.err by a logger.(øºÑûúÿÿÿÿHÓRMAJORZ
-CODE_SMELL
-k
-squid:S106¾"9Replace this use of System.out or System.err by a logger.(­¯ìÒúÿÿÿÿHÔRMAJORZ
-CODE_SMELL
-Usquid:S1481„"'Remove this unused "br" local variable.(ßÅÍ”HÕRMINORZ
-CODE_SMELL

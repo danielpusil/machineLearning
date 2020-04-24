@@ -10,44 +10,53 @@ import org.uma.jmetal.util.AlgorithmBuilder;
 import org.uma.jmetal.util.JMetalException;
 
 /**
- * Factory to hill climbing algorithms builders, with configuration needed for
- * elm problem.
+ *Factory to hill climbing algorithms builders, with configuration needed
+ * for elm problem. 
  */
-public class HillClimbingFactory extends AbstractBuilderFactory {
+public class HillClimbingFactory extends AbstractBuilderFactory
+{
+    
+    private double PROBABILITY ; 
+    private double RADIUS;
 
-	private static final String HILL_CLIMBING = "HillClimbing";
-	private double probability;
-	private double radius;
+    public HillClimbingFactory(AbstractParametersFactory parametersFactory) {
+        super(parametersFactory);
+    }
+    
+    @Override
+    public AlgorithmBuilder getAlgorithm(String name, AbstractELMEvaluator.EvaluatorType evaluatorType, 
+            DoubleProblem problem) throws Exception
+    {
+        int evaluations = evaluatorType == AbstractELMEvaluator.EvaluatorType.TT?EVALUATIONS_TT:EVALUATIONS_CV;
+        AlgorithmBuilder builder = null;
+        this.loadAlgorithmValues(name, evaluatorType);
+        switch (name)
+        {
+            case "HillClimbing":
+                builder = this.getHillClimbing(evaluations, problem);
+                break;
+            default:
+                throw new JMetalException("Algorithm "+name+" not exists");
+        }
+        return builder;
+    }
+    
+    private AlgorithmBuilder getHillClimbing(int evaluations, DoubleProblem problem)
+    {
+        return new HillClimbingBuilder(problem)
+                            .setTweak(new BoundedUniformConvultion(PROBABILITY, RADIUS))
+                            .setMaxEvaluations(evaluations)
+                            .setComparator(COMPARATOR)
+                            .setPenalizeValue(PENALIZE_VALUE);
+    }
 
-	public HillClimbingFactory(AbstractParametersFactory parametersFactory) {
-		super(parametersFactory);
-	}
+    @Override
+    protected void loadAlgorithmValues(String name, AbstractELMEvaluator.EvaluatorType evaluatorType) throws Exception 
+    {
+        
+        PROBABILITY  = parametersFactory.getValue("PROBABILITY", evaluatorType, "HillClimbing") ; 
+        RADIUS = parametersFactory.getValue("RADIUS", evaluatorType, "HillClimbing") ;
 
-	@Override
-	public AlgorithmBuilder<?> getAlgorithm(String name, AbstractELMEvaluator.EvaluatorType evaluatorType,
-			DoubleProblem problem) throws Exception {
-		int evaluations = evaluatorType == AbstractELMEvaluator.EvaluatorType.TT ? EVALUATIONS_TT : EVALUATIONS_CV;
-		AlgorithmBuilder<?> builder = null;
-		this.loadAlgorithmValues(name, evaluatorType);
-		if (HILL_CLIMBING.equals(name)) {
-			builder = this.getHillClimbing(evaluations, problem);
-		} else {
-			throw new JMetalException("Algorithm " + name + " not exists");
-		}
-		return builder;
-	}
-
-	private AlgorithmBuilder getHillClimbing(int evaluations, DoubleProblem problem) {
-		return new HillClimbingBuilder(problem).setTweak(new BoundedUniformConvultion(probability, radius))
-				.setMaxEvaluations(evaluations).setComparator(COMPARATOR).setPenalizeValue(PENALIZE_VALUE);
-	}
-
-	@Override
-	protected void loadAlgorithmValues(String name, AbstractELMEvaluator.EvaluatorType evaluatorType) throws Exception {
-
-		probability = parametersFactory.getValue("PROBABILITY", evaluatorType, HILL_CLIMBING);
-		radius = parametersFactory.getValue("RADIUS", evaluatorType, HILL_CLIMBING);
-
-	}
-
+    }
+    
 }

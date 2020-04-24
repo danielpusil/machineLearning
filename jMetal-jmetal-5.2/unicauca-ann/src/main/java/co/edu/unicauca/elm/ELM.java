@@ -1,7 +1,7 @@
 package co.edu.unicauca.elm;
 
 import co.edu.unicauca.matrix.util.MatrixUtil;
-import co.edu.unicauca.moore.penrose.AbstractMoorePenroseMethod;
+import co.edu.unicauca.moore_penrose.AbstractMoorePenroseMethod;
 import no.uib.cipr.matrix.DenseMatrix;
 import no.uib.cipr.matrix.DenseVector;
 import co.edu.unicauca.elm_function.ELMFunction;

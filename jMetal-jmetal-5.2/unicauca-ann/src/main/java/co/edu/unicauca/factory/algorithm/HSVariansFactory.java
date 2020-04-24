@@ -17,22 +17,22 @@ import co.edu.unicauca.problem.AbstractELMEvaluator;
  */
 public class HSVariansFactory extends AbstractBuilderFactory {
 
-    private int hms;
-    private double hmcr;
-    private double par;
-    private double bw;
-    private double bwMin;
-    private double bwMax;
-    private double parMax;
-    private double parMin;
-    private double pm;
+    private int HMS;
+    private double HMCR;
+    private double PAR;
+    private double BW;
+    private double BWMin;
+    private double BWMax;
+    private double PARMax;
+    private double PARMin;
+    private double PM;
 
     public HSVariansFactory(AbstractParametersFactory parametersFactory) {
         super(parametersFactory);
     }
 
     @Override
-    public AlgorithmBuilder<?> getAlgorithm(String name, AbstractELMEvaluator.EvaluatorType evaluatorType, DoubleProblem problem) throws Exception {
+    public AlgorithmBuilder getAlgorithm(String name, AbstractELMEvaluator.EvaluatorType evaluatorType, DoubleProblem problem) throws Exception {
         this.evaluatorType = evaluatorType;
         int evaluations = evaluatorType == AbstractELMEvaluator.EvaluatorType.TT ? EVALUATIONS_TT : EVALUATIONS_CV;
         AlgorithmBuilder builder = null;
@@ -58,31 +58,31 @@ public class HSVariansFactory extends AbstractBuilderFactory {
 
     @Override
     protected void loadAlgorithmValues(String name, AbstractELMEvaluator.EvaluatorType evaluatorType) throws Exception {
-        hms = (int) parametersFactory.getValue("HMS", evaluatorType, "HS");
-        hmcr = parametersFactory.getValue("HMCR", evaluatorType, "HS");
-        par = parametersFactory.getValue("PAR", evaluatorType, "HS");
-        bw = parametersFactory.getValue("BW", evaluatorType, "HS");
-        parMax = parametersFactory.getValue("PARMax", evaluatorType, "IHS");
-        parMin = parametersFactory.getValue("PARMin", evaluatorType, "IHS");
-        bwMax = parametersFactory.getValue("BWMax", evaluatorType, "IHS");
-        bwMin = parametersFactory.getValue("BWMin", evaluatorType, "IHS");
-        pm = parametersFactory.getValue("PM", evaluatorType, "NGHS");
+        HMS = (int) parametersFactory.getValue("HMS", evaluatorType, "HS");
+        HMCR = parametersFactory.getValue("HMCR", evaluatorType, "HS");
+        PAR = parametersFactory.getValue("PAR", evaluatorType, "HS");
+        BW = parametersFactory.getValue("BW", evaluatorType, "HS");
+        PARMax = parametersFactory.getValue("PARMax", evaluatorType, "IHS");
+        PARMin = parametersFactory.getValue("PARMin", evaluatorType, "IHS");
+        BWMax = parametersFactory.getValue("BWMax", evaluatorType, "IHS");
+        BWMin = parametersFactory.getValue("BWMin", evaluatorType, "IHS");
+        PM = parametersFactory.getValue("PM", evaluatorType, "NGHS");
     }
 
     public AlgorithmBuilder getHS(int evaluations, DoubleProblem problem) {
-        return new HSBuilder(problem).setHMS(hms).setHMCR(hmcr).setPAR(par).setBW(bw).setMaxEvaluations(evaluations);
+        return new HSBuilder(problem).setHMS(HMS).setHMCR(HMCR).setPAR(PAR).setBW(BW).setMaxEvaluations(evaluations);
     }
 
     public AlgorithmBuilder getIHS(int evaluations, DoubleProblem problem) {
-        return new IHSBuilder(problem).setHMS(hms).setHMCR(hmcr).setPARMAX(parMax).setPARMIN(parMin).setBWMAX(bwMax).setBWMIN(bwMin).setMaxEvaluations(evaluations);
+        return new IHSBuilder(problem).setHMS(HMS).setHMCR(HMCR).setPARMAX(PARMax).setPARMIN(PARMin).setBWMAX(BWMax).setBWMIN(BWMin).setMaxEvaluations(evaluations);
 
     }
 
     public AlgorithmBuilder getGHS(int evaluations, DoubleProblem problem) {
-        return new GHSBuilder(problem).setHMS(hms).setHMCR(hmcr).setPARMAX(parMax).setPARMIN(parMin).setMaxEvaluations(evaluations);
+        return new GHSBuilder(problem).setHMS(HMS).setHMCR(HMCR).setPARMAX(PARMax).setPARMIN(PARMin).setMaxEvaluations(evaluations);
     }
 
     public AlgorithmBuilder getNGHS(int evaluations, DoubleProblem problem) {
-        return new NGHSBuilder(problem).setHMS(hms).setPM(pm).setMaxEvaluations(evaluations);
+        return new NGHSBuilder(problem).setHMS(HMS).setPM(PM).setMaxEvaluations(evaluations);
     }
 }

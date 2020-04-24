@@ -14,6 +14,6 @@ public class ELMUtil
      */
     public static ELMType getELMType(DataSet data_set)
     {
-        return data_set.getNumberClasses() == 1?ELM.ELMType.REGRESSION:ELM.ELMType.CLASSIFICATION;
+        return data_set.getNumber_classes() == 1?ELM.ELMType.REGRESSION:ELM.ELMType.CLASSIFICATION;
     }
 }

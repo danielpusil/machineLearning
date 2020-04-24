@@ -1,6 +1,6 @@
 package co.edu.unicauca.moore_penrose.impl;
 
-import co.edu.unicauca.moore.penrose.AbstractMoorePenroseMethod;
+import co.edu.unicauca.moore_penrose.AbstractMoorePenroseMethod;
 import no.uib.cipr.matrix.DenseMatrix;
 import no.uib.cipr.matrix.Matrices;
 

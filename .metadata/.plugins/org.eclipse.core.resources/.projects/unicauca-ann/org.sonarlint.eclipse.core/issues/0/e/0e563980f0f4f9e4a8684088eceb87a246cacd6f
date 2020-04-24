@@ -1,10 +1,0 @@
-
-psquid:S1854
-">Remove this useless assignment to local variable "desviacion".(ÒÂœ³üÿÿÿÿH¤RMAJORZ
-CODE_SMELL
-isquid:S1854"<Remove this useless assignment to local variable "varianza".(‹àÚ¹H¥RMAJORZ
-CODE_SMELL
-ksquid:S1854"9Remove this useless assignment to local variable "value".(ŽÕì‘ûÿÿÿÿH¦RMAJORZ
-CODE_SMELL
-Usquid:S1905 "(Remove this unnecessary cast to "float".(Ò¼•±H§RMINORZ
-CODE_SMELL

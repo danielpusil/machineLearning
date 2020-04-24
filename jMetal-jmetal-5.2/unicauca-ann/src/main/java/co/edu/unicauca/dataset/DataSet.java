@@ -26,19 +26,19 @@ public class DataSet {
      * File name that containts data set File must contain in its firt row:
      * number-data number-variables number-clases
      */
-    private String fileName;
+    private String file_name;
     /**
      * Data, every column represents an instance
      */
-    private DenseMatrix matrixX;
+    private DenseMatrix X;
     /**
      * Result for i-th column of instance X, it represents the class atribute
      */
-    private DenseVector DenseVectoY;
+    private DenseVector Y;
     /**
      * Number of posibles results for instances
      */
-    private int numberClasses;
+    private int number_classes;
     /**
      * Index for add a new column
      */
@@ -53,46 +53,46 @@ public class DataSet {
      * Creates a data set reading it from a file
      *
      * @param path path where file is allocated
-     * @param fileName File name that containts data set. File must contain in
+     * @param file_name File name that containts data set. File must contain in
      * its firt row: number-data number-variables number-clases Every row must
      * be an instance, every colum is a variable and one column is the result
      * from that instance
-     * @param resultIndex
+     * @param result_index
      */
-    public DataSet(String path, String fileName, int resultIndex) throws IOException {
+    public DataSet(String path, String file_name, int result_index) throws IOException {
         this.path = path;
-        this.fileName = fileName;
-        this.loadInstances(resultIndex);
+        this.file_name = file_name;
+        this.loadInstances(result_index);
     }
 
     /**
      * Creates a data set given an input data and output data
      *
-     * @param matrixX input data, every column represents an instance
-     * @param vectorY output data, every value is the result for i-th column on X
+     * @param X input data, every column represents an instance
+     * @param Y output data, every value is the result for i-th column on X
      */
-    public DataSet(DenseMatrix matrixX, DenseVector vectorY) throws Exception {
-        if (matrixX.numColumns() != vectorY.size()) {
+    public DataSet(DenseMatrix X, DenseVector Y) throws Exception {
+        if (X.numColumns() != Y.size()) {
             throw new Exception("X's number of columns must be the same of Y's size in order they represent a data set ");
         }
-        this.matrixX = matrixX;
-        this.DenseVectoY = vectorY;
+        this.X = X;
+        this.Y = Y;
     }
 
-    public DataSet(int numData, int numVariables, int numberClasses) {
+    public DataSet(int numData, int numVariables, int number_classes) {
 
-        matrixX = new DenseMatrix(numVariables, numData);
-        DenseVectoY = new DenseVector(numData);
+        X = new DenseMatrix(numVariables, numData);
+        Y = new DenseVector(numData);
         index = 0;
-        this.numberClasses = numberClasses;
+        this.number_classes = number_classes;
     }
 
     public void addDataColumn(Vector col) {
-        int numData = matrixX.numRows();
+        int numData = X.numRows();
 
         for (int i = 0; i < numData; i++) {
             try {
-                matrixX.set(i, index, col.get(i));
+                X.set(i, index, col.get(i));
             } catch (Exception e) {
                 System.out.println("Error insert");
             }
@@ -100,7 +100,7 @@ public class DataSet {
     }
 
     public void addValueColumn(double value) {
-        DenseVectoY.set(index, value);
+        Y.set(index, value);
     }
 
     public void nextIndex() {
@@ -111,20 +111,20 @@ public class DataSet {
         return index;
     }
 
-    private void loadInstances(int resulIndex) throws IOException {
+    private void loadInstances(int resul_index) throws FileNotFoundException, IOException {
 
         BufferedReader br = null;
         FileReader fr = null;
 
-        fr = new FileReader(path + "/" + fileName);
+        fr = new FileReader(path + "/" + file_name);
         br = new BufferedReader(fr);
         String[] firstRow = br.readLine().split(" ");
         int numRows = Integer.parseInt(firstRow[0]);
         int numCols = Integer.parseInt(firstRow[1]);
-        numberClasses = Integer.parseInt(firstRow[2]);
+        number_classes = Integer.parseInt(firstRow[2]);
 
-        matrixX = new DenseMatrix(numCols - 1, numRows);
-        DenseVectoY = new DenseVector(numRows);
+        X = new DenseMatrix(numCols - 1, numRows);
+        Y = new DenseVector(numRows);
         String actualLine;
         int i = 0;
 
@@ -133,10 +133,10 @@ public class DataSet {
 
             for (int j = 0; j < numCols; j++) {
                 double value = Double.parseDouble(aux[j]);
-                if (j != resulIndex) {
-                    matrixX.set(j, i, value);
+                if (j != resul_index) {
+                    X.set(j, i, value);
                 } else {
-                    DenseVectoY.set(i, value);
+                    Y.set(i, value);
                 }
             }
             i++;
@@ -144,15 +144,15 @@ public class DataSet {
     }
 
     public DenseMatrix getX() {
-        return matrixX;
+        return X;
     }
 
     public DenseVector getY() {
-        return DenseVectoY;
+        return Y;
     }
 
-    public int getNumberClasses() {
-        return numberClasses;
+    public int getNumber_classes() {
+        return number_classes;
     }
 
 }
