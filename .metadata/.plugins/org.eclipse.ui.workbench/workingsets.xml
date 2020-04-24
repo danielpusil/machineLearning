@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587668986472_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=jmetal-algorithm/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-algorithm/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-core/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-core/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-exec/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-problem/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-problem/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=unicauca-ann/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=unicauca-ann/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587668986478_1" label="Java Test Sources" name="Java Test Sources">
+<item elementID="=jmetal-algorithm/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-algorithm/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-core/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-core/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-problem/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=jmetal-problem/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587670572340_3" label="jmetal" name="jmetal">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jmetal-exec" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jmetal-algorithm" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/unicauca-ann" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jMetal-jmetal-5.2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jmetal-problem" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jmetal-core" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1587668992458_2" label="Window Working Set" name="Aggregate for window 1587668992457"/>
+</workingSetManager>

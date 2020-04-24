@@ -1,0 +1,46 @@
+package co.edu.unicauca.moore.penrose.impl;
+
+import co.edu.unicauca.moore.penrose.AbstractMoorePenroseMethod;
+import no.uib.cipr.matrix.DenseMatrix;
+import no.uib.cipr.matrix.Matrices;
+
+public class RidgeRegressionTheory extends AbstractMoorePenroseMethod {
+
+    /**
+     * -----------------------------------------------------------------------------------------
+     * Methods
+     *-----------------------------------------------------------------------------------------
+     */
+    public RidgeRegressionTheory(double[] values) {
+        super(values);
+    }
+
+    @Override
+    public DenseMatrix calculate(DenseMatrix A){
+        /*	Moore-Penrose generalized inverse maxtrix
+         * 	Theory:Ridge regression
+         *	MP(A) = inv((H'*H+lumda*I))*H'
+         */
+
+        if (values == null || values.length == 0) {
+            throw new UnsupportedOperationException("Values must contain lumda value in its first position.");
+        }
+        double lumda = values[0];
+        int n = A.numColumns();
+        int m = A.numRows();
+
+        DenseMatrix matrixAt = new DenseMatrix(n, m);
+        A.transpose(matrixAt);
+        DenseMatrix matrixAtA = new DenseMatrix(n, n);
+        matrixAt.mult(A, matrixAtA);
+
+        DenseMatrix I = Matrices.identity(n);
+        matrixAtA.add(lumda, I);
+        DenseMatrix matrixAtAinv = I.copy();
+        matrixAtA.solve(I, matrixAtAinv);
+        DenseMatrix Ainv = new DenseMatrix(n, m);
+        matrixAtAinv.mult(matrixAt, Ainv);
+        return Ainv;
+    }
+
+}

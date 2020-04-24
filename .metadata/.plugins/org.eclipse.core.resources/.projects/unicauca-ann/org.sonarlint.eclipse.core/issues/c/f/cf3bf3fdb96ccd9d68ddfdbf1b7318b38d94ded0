@@ -1,0 +1,10 @@
+
+hsquid:S1948-"1Make "trainingDataSet" transient or serializable.(ïì8‚óãÄš.HÆ	RCRITICALZ
+CODE_SMELL
+Zsquid:S19486"%Make "elm" transient or serializable.(·ßìÙıÿÿÿÿHÑRCRITICALZ
+CODE_SMELL
+gsquid:S19481"0Make "testingDataSet" transient or serializable.(§ôìÿ8¾ºäÄš.H¿
+RCRITICALZ
+CODE_SMELL
+jsquid:S1948B".Make "inputWeights" transient or serializable.(Ø…ôˆıÿÿÿÿ8ªşéÄš.H­RCRITICALZ
+CODE_SMELL

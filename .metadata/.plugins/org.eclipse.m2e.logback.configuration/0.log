@@ -1,0 +1,1148 @@
+2020-04-23 14:09:48,639 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-23 14:10:24,890 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.uma.jmetal:jmetal:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/pom.xml.
+2020-04-23 14:10:38,277 [Worker-2: Launching Executing clean in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2
+2020-04-23 14:10:38,277 [Worker-2: Launching Executing clean in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-04-23 14:10:41,205 [Worker-7: Launching Executing install in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2
+2020-04-23 14:10:41,205 [Worker-7: Launching Executing install in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-04-23 14:11:42,139 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-04-23 14:11:42,462 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.uma.jmetal:jmetal:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/pom.xml.
+2020-04-23 14:11:42,786 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-04-23 14:26:11,955 [Worker-18: Launching Executing clean in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2
+2020-04-23 14:26:11,955 [Worker-18: Launching Executing clean in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-04-23 14:26:15,634 [Worker-18: Launching Executing install in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2
+2020-04-23 14:26:15,634 [Worker-18: Launching Executing install in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-04-23 14:28:26,876 [Worker-22: Launching Executing clean in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2
+2020-04-23 14:28:26,877 [Worker-22: Launching Executing clean in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-04-23 14:28:30,177 [Worker-19: Launching Executing install in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2
+2020-04-23 14:28:30,178 [Worker-19: Launching Executing install in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-04-23 14:35:16,048 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-04-23 14:35:16,431 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.uma.jmetal:jmetal:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/pom.xml.
+2020-04-23 14:35:16,990 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-04-23 14:36:12,814 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.uma.jmetal:jmetal:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/pom.xml.
+2020-04-23 14:36:13,137 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-core:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-core/pom.xml.
+2020-04-23 14:36:13,193 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-algorithm:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-algorithm/pom.xml.
+2020-04-23 14:36:13,213 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-23 14:36:13,214 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-23 14:36:13,243 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-problem:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-problem/pom.xml.
+2020-04-23 14:36:13,246 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-23 14:36:13,271 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-exec:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/pom.xml.
+2020-04-23 14:36:13,278 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-23 14:36:13,279 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-23 14:36:13,279 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-23 14:36:13,279 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/unicauca-ann: org.uma.jmetal:unicauca-ann:5.2 with classifier  to /unicauca-ann/target/classes
+2020-04-23 14:36:13,308 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:unicauca-ann:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/pom.xml.
+2020-04-23 14:36:13,314 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-23 14:36:13,315 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-23 14:36:13,315 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-23 14:36:13,860 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-core/src/main/java
+2020-04-23 14:36:13,861 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-core/src/main/resources
+2020-04-23 14:36:13,862 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-core/src/test/java
+2020-04-23 14:36:13,862 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-core/src/test/resources
+2020-04-23 14:36:14,053 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-problem/src/main/java
+2020-04-23 14:36:14,053 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-problem/src/main/resources
+2020-04-23 14:36:14,055 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-problem/src/test/java
+2020-04-23 14:36:14,055 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-problem/src/test/resources
+2020-04-23 14:36:14,124 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-algorithm/src/main/java
+2020-04-23 14:36:14,124 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-algorithm/src/main/resources
+2020-04-23 14:36:14,126 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-algorithm/src/test/java
+2020-04-23 14:36:14,127 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-algorithm/src/test/resources
+2020-04-23 14:36:14,172 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /unicauca-ann/src/main/java
+2020-04-23 14:36:14,172 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /unicauca-ann/src/main/resources
+2020-04-23 14:36:14,173 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /unicauca-ann/src/test/java
+2020-04-23 14:36:14,209 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-exec/src/main/java
+2020-04-23 14:36:14,209 [Worker-25: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-exec/src/test/java
+2020-04-23 14:36:14,233 [Worker-25: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 6 project(s) in 1 sec
+2020-04-23 14:36:19,395 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:19,404 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 217 resources
+2020-04-23 14:36:19,472 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:19,474 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 102 resources
+2020-04-23 14:36:20,509 [Worker-25: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-23 14:36:20,513 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:20,514 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 136 resources
+2020-04-23 14:36:20,533 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:20,534 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 96 resources
+2020-04-23 14:36:22,179 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-23 14:36:22,180 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-23 14:36:22,186 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:22,187 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 139 resources
+2020-04-23 14:36:22,211 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:22,212 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 171 resources
+2020-04-23 14:36:22,640 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-23 14:36:22,641 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-23 14:36:22,641 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-23 14:36:22,644 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:22,644 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:36:22,645 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:22,645 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:36:23,137 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-23 14:36:23,138 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-23 14:36:23,138 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-23 14:36:23,139 [Worker-22: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/unicauca-ann: org.uma.jmetal:unicauca-ann:5.2 with classifier  to /unicauca-ann/target/classes
+2020-04-23 14:36:23,145 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:23,145 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/main/resources
+2020-04-23 14:36:23,146 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:23,146 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/test/resources
+2020-04-23 14:36:43,492 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:43,496 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:36:43,498 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:36:43,498 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:37:20,110 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:37:20,110 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:37:20,112 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:37:20,112 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:37:27,435 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:37:27,436 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:37:27,439 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:37:27,440 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:38:23,804 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:38:23,805 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:38:23,806 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:38:23,806 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:38:33,902 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:38:33,903 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:38:33,903 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:38:33,903 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:39:01,594 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:01,594 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:39:01,595 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:01,595 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:39:24,439 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:24,439 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:39:24,440 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:24,440 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:39:37,656 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:37,656 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:39:37,657 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:37,657 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:39:46,323 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:46,324 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:39:46,325 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:46,325 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:39:55,244 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:55,244 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:39:55,247 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:39:55,247 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:40:05,281 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:40:05,281 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:40:05,285 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:40:05,285 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:40:12,360 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:40:12,360 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:40:12,360 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:40:12,360 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:40:24,567 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:40:24,567 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:40:24,568 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:40:24,569 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:41:15,709 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:41:15,710 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:41:15,711 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:41:15,711 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:41:23,606 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:41:23,607 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:41:23,608 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:41:23,608 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:41:46,296 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:41:46,297 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:41:46,298 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:41:46,298 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:41:54,139 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:41:54,140 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:41:54,140 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:41:54,140 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:42:20,904 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:42:20,905 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:42:20,905 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:42:20,905 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:42:28,336 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:42:28,336 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:42:28,337 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:42:28,337 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:50:13,077 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:50:13,078 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:50:13,078 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:50:13,078 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:50:54,693 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:50:54,694 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:50:54,695 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:50:54,695 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:51:29,124 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:51:29,124 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:51:29,124 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:51:29,124 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:51:36,387 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:51:36,387 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:51:36,387 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:51:36,387 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:51:46,203 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:51:46,203 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:51:46,204 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:51:46,204 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:52:09,330 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:52:09,331 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:52:09,332 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:52:09,333 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:52:18,321 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:52:18,321 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:52:18,322 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:52:18,322 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:52:34,620 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:52:34,621 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:52:34,622 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:52:34,623 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:53:03,723 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:53:03,724 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:53:03,725 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:53:03,725 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:53:25,624 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:53:25,624 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:53:25,625 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:53:25,625 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:53:38,917 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:53:38,917 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:53:38,918 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:53:38,918 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:53:49,109 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:53:49,109 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:53:49,110 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:53:49,110 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:54:15,949 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:54:15,949 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:54:15,950 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:54:15,950 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:54:17,998 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:54:17,999 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:54:17,999 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:54:17,999 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:54:27,193 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:54:27,193 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:54:27,194 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:54:27,194 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:55:02,198 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:55:02,198 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:55:02,199 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:55:02,199 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:55:04,755 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:55:04,755 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:55:04,755 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:55:04,755 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:55:53,988 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:55:53,988 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:55:53,989 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:55:53,989 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 14:59:09,196 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:59:09,196 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 14:59:09,197 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 14:59:09,197 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:07:52,627 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:07:52,627 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:07:52,628 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:07:52,628 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:08:04,088 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:08:04,089 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:08:04,090 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:08:04,090 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:08:14,453 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:08:14,453 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:08:14,454 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:08:14,454 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:08:29,538 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:08:29,539 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:08:29,539 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:08:29,539 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:08:36,416 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:08:36,417 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:08:36,418 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:08:36,418 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:09:13,667 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:09:13,667 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:09:13,668 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:09:13,668 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:09:23,463 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:09:23,464 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:09:23,464 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:09:23,464 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:09:30,199 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:09:30,200 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:09:30,200 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:09:30,201 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:09:47,680 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:09:47,680 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:09:47,681 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:09:47,681 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:10:13,794 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:10:13,794 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:10:13,796 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:10:13,796 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:10:23,357 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:10:23,358 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:10:23,358 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:10:23,358 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:10:32,023 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:10:32,023 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:10:32,024 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:10:32,024 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:10:51,299 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:10:51,299 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:10:51,300 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:10:51,300 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:11:03,754 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:11:03,754 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:11:03,755 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:11:03,755 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:11:31,327 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:11:31,327 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:11:31,328 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:11:31,328 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:12:02,944 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:12:02,944 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:12:02,945 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:12:02,945 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:13:10,620 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:13:10,620 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:13:10,620 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:13:10,621 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:13:34,885 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:13:34,886 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:13:34,886 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:13:34,886 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:13:36,962 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:13:36,962 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:13:36,963 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:13:36,963 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:13:46,143 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:13:46,143 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:13:46,144 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:13:46,144 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:17:08,855 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:08,855 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:17:08,856 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:08,856 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:17:17,833 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:17,833 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:17:17,834 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:17,834 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:17:22,953 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:22,953 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:17:22,953 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:22,953 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:17:29,518 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:29,518 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:17:29,519 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:29,519 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:17:41,413 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:41,413 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:17:41,414 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:41,414 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:17:50,859 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:50,859 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:17:50,860 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:17:50,860 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:18:16,440 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:18:16,440 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:18:16,440 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:18:16,441 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:18:37,175 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:18:37,175 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:18:37,175 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:18:37,175 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:19:14,332 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:19:14,332 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:19:14,333 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:19:14,333 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:19:20,827 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:19:20,827 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:19:20,828 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:19:20,828 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:19:34,456 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:19:34,456 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:19:34,457 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:19:34,457 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:20:02,535 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:20:02,535 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:20:02,536 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:20:02,536 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:20:10,554 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:20:10,554 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:20:10,555 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:20:10,555 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:20:39,550 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:20:39,550 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:20:39,551 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:20:39,551 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:20:48,760 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:20:48,760 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:20:48,760 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:20:48,760 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:21:20,299 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:21:20,300 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:21:20,300 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:21:20,300 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:21:28,562 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:21:28,562 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:21:28,563 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:21:28,563 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:21:46,800 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:21:46,800 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:21:46,800 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:21:46,800 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:22:14,150 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:22:14,150 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:22:14,151 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:22:14,151 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:22:23,033 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:22:23,034 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:22:23,035 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:22:23,035 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:22:55,004 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:22:55,005 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:22:55,005 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:22:55,005 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:24:07,262 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:07,263 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:24:07,264 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:07,264 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:24:17,032 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:17,032 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:24:17,033 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:17,033 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:24:20,178 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:20,178 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:24:20,179 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:20,179 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:24:35,373 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:35,374 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:24:35,375 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:35,375 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:24:59,882 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:59,882 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:24:59,883 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:24:59,883 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:25:10,363 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:10,364 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:25:10,365 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:10,365 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:25:12,454 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:12,454 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:25:12,455 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:12,455 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:25:19,148 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:19,148 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:25:19,149 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:19,149 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:25:31,329 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:31,330 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:25:31,331 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:31,331 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:25:50,019 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:50,020 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:25:50,020 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:50,020 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:25:57,433 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:57,433 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:25:57,434 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:25:57,434 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:26:34,179 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:26:34,179 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:26:34,180 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:26:34,180 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:34:12,388 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:34:12,388 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:34:12,389 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:34:12,389 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:34:52,758 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:34:52,758 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:34:52,759 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:34:52,759 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:34:59,242 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:34:59,242 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:34:59,242 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:34:59,242 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:35:06,744 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:35:06,744 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:35:06,744 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:35:06,744 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:35:55,945 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:35:55,945 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:35:55,945 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:35:55,945 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-23 15:36:02,751 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:36:02,751 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-23 15:36:02,752 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-23 15:36:02,752 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:41:49,096 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-24 10:42:42,845 [Worker-2: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 10:42:42,848 [Worker-2: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 10:42:42,849 [Worker-2: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 10:42:43,191 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:42:43,198 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:42:43,204 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:42:43,204 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:43:08,025 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:43:08,030 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:43:08,033 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:43:08,033 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:43:31,238 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:43:31,239 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:43:31,245 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:43:31,245 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:43:46,078 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:43:46,078 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:43:46,081 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:43:46,082 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:43:55,695 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:43:55,696 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:43:55,698 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:43:55,698 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:44:01,411 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:44:01,411 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:44:01,413 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:44:01,413 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:47:07,485 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:47:07,486 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:47:07,487 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:47:07,488 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:47:35,947 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:47:35,947 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:47:35,948 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:47:35,949 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:47:44,227 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:47:44,227 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:47:44,228 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:47:44,228 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:47:55,966 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:47:55,966 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:47:55,967 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:47:55,967 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:48:11,988 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:11,989 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:48:11,990 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:11,990 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:48:15,353 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:15,354 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:48:15,355 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:15,355 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:48:23,149 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:23,149 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:48:23,150 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:23,150 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:48:31,109 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:31,110 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:48:31,112 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:31,112 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:48:34,981 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:34,982 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:48:34,984 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:48:34,984 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:49:34,900 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:49:34,900 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:49:34,903 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:49:34,903 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:49:51,746 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:49:51,747 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:49:51,748 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:49:51,748 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:50:00,867 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:00,867 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:50:00,868 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:00,868 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:50:09,295 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:09,295 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:50:09,296 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:09,296 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:50:30,649 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:30,649 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:50:30,649 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:30,649 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:50:35,862 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:35,862 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:50:35,863 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:35,863 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:50:48,853 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:48,853 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:50:48,854 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:48,855 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:50:53,099 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:53,099 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:50:53,100 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:53,100 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:50:58,550 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:58,550 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:50:58,551 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:50:58,551 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:51:02,885 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:02,886 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:51:02,886 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:02,886 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:51:15,052 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:15,052 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:51:15,053 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:15,053 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:51:21,888 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:21,888 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:51:21,889 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:21,889 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:51:28,430 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:28,430 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:51:28,431 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:28,431 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:51:40,501 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:40,501 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:51:40,502 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:40,503 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:51:56,032 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:56,032 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:51:56,033 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:51:56,033 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:52:03,900 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:52:03,900 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:52:03,901 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:52:03,901 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:52:10,154 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:52:10,155 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:52:10,156 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:52:10,156 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:52:51,111 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:52:51,111 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:52:51,112 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:52:51,112 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:52:55,534 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:52:55,534 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:52:55,535 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:52:55,535 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:53:01,170 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:01,170 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:53:01,171 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:01,171 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:53:05,342 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:05,342 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:53:05,343 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:05,343 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:53:10,133 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:10,133 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:53:10,135 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:10,135 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:53:14,663 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:14,664 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:53:14,665 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:14,665 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:53:22,664 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:22,664 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:53:22,665 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:22,665 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:53:28,744 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:28,745 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:53:28,745 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:53:28,745 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:55:25,737 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:55:25,738 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:55:25,739 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:55:25,739 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:56:56,320 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:56:56,321 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:56:56,322 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:56:56,322 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:06,771 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:06,772 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:06,773 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:06,773 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:13,027 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:13,027 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:13,028 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:13,028 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:19,575 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:19,575 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:19,575 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:19,576 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:27,707 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:27,707 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:27,708 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:27,708 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:32,865 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:32,866 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:32,867 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:32,867 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:37,750 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:37,750 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:37,751 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:37,751 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:44,591 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:44,592 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:44,592 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:44,592 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:49,758 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:49,758 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:49,758 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:49,758 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:57:54,861 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:54,862 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:57:54,862 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:57:54,862 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:02,741 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:02,741 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:02,742 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:02,742 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:08,131 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:08,131 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:08,132 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:08,132 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:14,123 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:14,123 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:14,124 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:14,125 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:18,991 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:18,992 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:18,993 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:18,993 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:24,081 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:24,081 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:24,081 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:24,081 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:29,782 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:29,782 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:29,782 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:29,783 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:34,512 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:34,512 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:34,513 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:34,513 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:39,769 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:39,770 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:39,770 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:39,770 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:44,411 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:44,411 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:44,412 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:44,412 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:49,574 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:49,575 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:49,575 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:49,575 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:53,956 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:53,956 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:53,957 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:53,957 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:58:59,310 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:59,311 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:58:59,311 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:58:59,311 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:03,460 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:03,460 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:03,461 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:03,461 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:07,587 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:07,587 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:07,588 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:07,588 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:11,702 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:11,703 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:11,705 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:11,705 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:15,880 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:15,881 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:15,881 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:15,881 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:20,782 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:20,782 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:20,783 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:20,783 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:30,379 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:30,380 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:30,380 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:30,380 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:35,011 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:35,012 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:35,013 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:35,013 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:40,391 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:40,392 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:40,392 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:40,392 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:44,670 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:44,670 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:44,671 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:44,671 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:49,534 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:49,535 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:49,536 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:49,536 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:54,724 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:54,724 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:54,725 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:54,725 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 10:59:59,385 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:59,385 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 10:59:59,386 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 10:59:59,386 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:00:03,607 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:03,608 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:00:03,608 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:03,608 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:00:08,005 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:08,006 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:00:08,006 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:08,006 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:00:12,611 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:12,611 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:00:12,612 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:12,612 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:00:18,369 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:18,369 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:00:18,370 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:18,370 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:00:23,067 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:23,068 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:00:23,068 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:23,068 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:00:28,478 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:28,479 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:00:28,480 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:28,480 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:00:41,719 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:41,719 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:00:41,720 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:41,720 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:00:47,676 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:47,676 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:00:47,676 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:00:47,676 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:01:00,297 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:00,297 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:01:00,298 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:00,298 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:01:13,187 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:13,188 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:01:13,188 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:13,188 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:01:18,562 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:18,562 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:01:18,562 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:18,563 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:01:24,793 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:24,793 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:01:24,794 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:24,794 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:01:34,439 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:34,439 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:01:34,439 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:34,439 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:01:44,280 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:44,280 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:01:44,281 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:44,281 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:01:51,016 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:51,016 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:01:51,016 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:01:51,016 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:02:00,897 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:00,897 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:02:00,898 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:00,898 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:02:03,017 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:03,017 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:02:03,018 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:03,018 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:02:40,231 [Worker-30: Launching Executing clean in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2
+2020-04-24 11:02:40,231 [Worker-30: Launching Executing clean in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-04-24 11:02:43,261 [Worker-30: Launching Executing install in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2
+2020-04-24 11:02:43,261 [Worker-30: Launching Executing install in _home_daniel_Developer_JMetal-Framework-master_jMetal-jmetal-5.2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-04-24 11:02:44,533 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:44,535 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 217 resources
+2020-04-24 11:02:44,622 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:44,624 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 102 resources
+2020-04-24 11:02:45,153 [Worker-21: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:02:45,163 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:45,164 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 136 resources
+2020-04-24 11:02:45,191 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:45,192 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 96 resources
+2020-04-24 11:02:45,631 [Worker-21: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:02:45,634 [Worker-21: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:02:45,655 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:45,668 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 139 resources
+2020-04-24 11:02:45,716 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:45,718 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 171 resources
+2020-04-24 11:02:46,704 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:46,704 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:02:46,711 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:46,711 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:02:46,943 [Worker-25: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:02:46,945 [Worker-25: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:02:46,945 [Worker-25: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:02:46,946 [Worker-25: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/unicauca-ann: org.uma.jmetal:unicauca-ann:5.2 with classifier  to /unicauca-ann/target/classes
+2020-04-24 11:02:47,085 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:47,085 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/main/resources
+2020-04-24 11:02:47,086 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:02:47,086 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/test/resources
+2020-04-24 11:06:13,942 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:13,944 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 217 resources
+2020-04-24 11:06:13,949 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:13,950 [Worker-58: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 102 resources
+2020-04-24 11:06:14,154 [Worker-59: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:06:14,160 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:14,162 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 136 resources
+2020-04-24 11:06:14,164 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:14,164 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 96 resources
+2020-04-24 11:06:14,430 [Worker-46: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:06:14,431 [Worker-46: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:06:14,438 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:14,440 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 139 resources
+2020-04-24 11:06:14,442 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:14,443 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 171 resources
+2020-04-24 11:06:15,015 [Worker-57: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:06:15,015 [Worker-57: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:06:15,015 [Worker-57: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:06:15,020 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:15,020 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:06:15,021 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:15,021 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:06:15,105 [Worker-57: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:06:15,106 [Worker-57: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:06:15,106 [Worker-57: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:06:15,107 [Worker-57: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/unicauca-ann: org.uma.jmetal:unicauca-ann:5.2 with classifier  to /unicauca-ann/target/classes
+2020-04-24 11:06:15,112 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:15,112 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/main/resources
+2020-04-24 11:06:15,113 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:06:15,113 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/test/resources
+2020-04-24 11:13:41,685 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-04-24 11:13:42,304 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.uma.jmetal:jmetal:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/pom.xml.
+2020-04-24 11:13:42,532 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-algorithm:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-algorithm/pom.xml.
+2020-04-24 11:13:42,568 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:13:42,568 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:13:42,594 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-core:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-core/pom.xml.
+2020-04-24 11:13:42,625 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-exec:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/pom.xml.
+2020-04-24 11:13:42,633 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:13:42,634 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:13:42,634 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:13:42,634 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/unicauca-ann: org.uma.jmetal:unicauca-ann:5.2 with classifier  to /unicauca-ann/target/classes
+2020-04-24 11:13:42,658 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-problem:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-problem/pom.xml.
+2020-04-24 11:13:42,661 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:13:42,688 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:unicauca-ann:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/pom.xml.
+2020-04-24 11:13:42,691 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:13:42,692 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:13:42,692 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:13:43,138 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-algorithm/src/main/java
+2020-04-24 11:13:43,138 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-algorithm/src/main/resources
+2020-04-24 11:13:43,139 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-algorithm/src/test/java
+2020-04-24 11:13:43,139 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-algorithm/src/test/resources
+2020-04-24 11:13:43,195 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-core/src/main/java
+2020-04-24 11:13:43,196 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-core/src/main/resources
+2020-04-24 11:13:43,197 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-core/src/test/java
+2020-04-24 11:13:43,198 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-core/src/test/resources
+2020-04-24 11:13:43,236 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-exec/src/main/java
+2020-04-24 11:13:43,236 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-exec/src/test/java
+2020-04-24 11:13:43,275 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-problem/src/main/java
+2020-04-24 11:13:43,276 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-problem/src/main/resources
+2020-04-24 11:13:43,277 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jmetal-problem/src/test/java
+2020-04-24 11:13:43,277 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jmetal-problem/src/test/resources
+2020-04-24 11:13:43,720 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /unicauca-ann/src/main/java
+2020-04-24 11:13:43,720 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /unicauca-ann/src/main/resources
+2020-04-24 11:13:43,720 [Worker-69: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /unicauca-ann/src/test/java
+2020-04-24 11:13:45,365 [Worker-69: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2020-04-24 11:13:46,980 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:46,982 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 217 resources
+2020-04-24 11:13:47,052 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:47,053 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 102 resources
+2020-04-24 11:13:47,700 [Worker-85: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:13:47,704 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:47,705 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 136 resources
+2020-04-24 11:13:47,729 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:47,729 [Worker-85: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 96 resources
+2020-04-24 11:13:48,710 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:13:48,710 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:13:48,714 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:48,715 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 139 resources
+2020-04-24 11:13:48,732 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:48,733 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 171 resources
+2020-04-24 11:13:48,969 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:13:48,969 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:13:48,969 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:13:48,972 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:48,973 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:13:48,974 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:48,974 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:13:49,212 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:13:49,213 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:13:49,213 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:13:49,213 [Worker-102: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/unicauca-ann: org.uma.jmetal:unicauca-ann:5.2 with classifier  to /unicauca-ann/target/classes
+2020-04-24 11:13:49,218 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:49,218 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/main/resources
+2020-04-24 11:13:49,219 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:13:49,219 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/test/resources
+2020-04-24 11:16:03,818 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:03,820 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:16:03,821 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:03,821 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:16:12,502 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:12,502 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:16:12,503 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:12,503 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:16:13,756 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:13,756 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:16:13,758 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:13,758 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:16:14,947 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:14,947 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:16:14,948 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:14,948 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:16:16,110 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:16,110 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:16:16,111 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:16,112 [Worker-229: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:16:16,510 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:16,510 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:16:16,510 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:16,510 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:16:16,513 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:16,513 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/main/resources
+2020-04-24 11:16:16,514 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:16:16,514 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/test/resources
+2020-04-24 11:18:28,638 [Worker-84: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: org.uma.jmetal:jmetal:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/pom.xml.
+2020-04-24 11:18:28,759 [Worker-84: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-core:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-core/pom.xml.
+2020-04-24 11:18:28,795 [Worker-84: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-algorithm:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-algorithm/pom.xml.
+2020-04-24 11:18:28,803 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:18:28,803 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:18:28,820 [Worker-84: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-exec:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/pom.xml.
+2020-04-24 11:18:28,825 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:18:28,825 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:18:28,825 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:18:28,825 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/unicauca-ann: org.uma.jmetal:unicauca-ann:5.2 with classifier  to /unicauca-ann/target/classes
+2020-04-24 11:18:28,845 [Worker-84: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:jmetal-problem:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-problem/pom.xml.
+2020-04-24 11:18:28,847 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:18:28,871 [Worker-84: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uma.jmetal:unicauca-ann:5.2 @ /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/pom.xml.
+2020-04-24 11:18:28,874 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:18:28,874 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:18:28,874 [Worker-84: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:18:29,279 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,280 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 11:18:29,282 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,282 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 11:18:29,328 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:18:29,333 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,333 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 11:18:29,334 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,334 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 11:18:29,375 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:18:29,376 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:18:29,380 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,380 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 11:18:29,381 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,381 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 11:18:29,514 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:18:29,514 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:18:29,514 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:18:29,517 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,517 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:18:29,521 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,521 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:18:29,613 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-core: org.uma.jmetal:jmetal-core:5.2 with classifier  to /jmetal-core/target/classes
+2020-04-24 11:18:29,614 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-algorithm: org.uma.jmetal:jmetal-algorithm:5.2 with classifier  to /jmetal-algorithm/target/classes
+2020-04-24 11:18:29,614 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/jmetal-problem: org.uma.jmetal:jmetal-problem:5.2 with classifier  to /jmetal-problem/target/classes
+2020-04-24 11:18:29,614 [Worker-232: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/unicauca-ann: org.uma.jmetal:unicauca-ann:5.2 with classifier  to /unicauca-ann/target/classes
+2020-04-24 11:18:29,617 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,618 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/main/resources
+2020-04-24 11:18:29,618 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:18:29,618 [Worker-232: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/jmetal-exec/src/test/resources
+2020-04-24 11:25:56,705 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:25:56,706 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:25:56,706 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:25:56,706 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:27:43,718 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:27:43,718 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:27:43,719 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:27:43,719 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:28:24,058 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:28:24,058 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:28:24,060 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:28:24,060 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:30:11,791 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:30:11,791 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:30:11,792 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:30:11,792 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:30:24,532 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:30:24,532 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:30:24,533 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:30:24,533 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:30:40,105 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:30:40,106 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:30:40,106 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:30:40,106 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:30:55,265 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:30:55,266 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:30:55,267 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:30:55,267 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:31:25,298 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:31:25,299 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:31:25,300 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:31:25,300 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:31:33,841 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:31:33,842 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:31:33,842 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:31:33,842 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:31:50,307 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:31:50,307 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:31:50,308 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:31:50,308 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:32:00,114 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:32:00,114 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:32:00,115 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:32:00,115 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:33:38,661 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:33:38,661 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:33:38,662 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:33:38,662 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:33:56,710 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:33:56,710 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:33:56,711 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:33:56,711 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:34:10,805 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:34:10,805 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:34:10,805 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:34:10,806 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:34:30,350 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:34:30,351 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:34:30,351 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:34:30,351 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:35:01,481 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:35:01,482 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:35:01,482 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:35:01,482 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:35:17,487 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:35:17,488 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:35:17,489 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:35:17,489 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:36:13,523 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:36:13,524 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:36:13,524 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:36:13,524 [Worker-237: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:36:25,407 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:36:25,407 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:36:25,408 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:36:25,408 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:37:27,826 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:37:27,826 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:37:27,827 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:37:27,827 [Worker-239: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:37:42,933 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:37:42,934 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:37:42,934 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:37:42,934 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:37:51,911 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:37:51,911 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:37:51,911 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:37:51,911 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:37:57,793 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:37:57,793 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:37:57,794 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:37:57,794 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:38:12,366 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:38:12,366 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:38:12,367 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:38:12,367 [Worker-133: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:39:57,795 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:39:57,796 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:39:57,796 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:39:57,796 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
+2020-04-24 11:46:20,240 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:46:20,241 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-04-24 11:46:20,241 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-24 11:46:20,242 [Worker-238: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/daniel/Developer/JMetal-Framework-master/jMetal-jmetal-5.2/unicauca-ann/src/test/resources
