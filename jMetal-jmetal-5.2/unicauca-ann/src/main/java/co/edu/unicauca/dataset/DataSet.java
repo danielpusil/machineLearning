@@ -79,12 +79,12 @@ public class DataSet {
         this.Y = Y;
     }
 
-    public DataSet(int numData, int numVariables, int number_classes) {
+    public DataSet(int numData, int numVariables, int numberClasses) {
 
         X = new DenseMatrix(numVariables, numData);
         Y = new DenseVector(numData);
         index = 0;
-        this.number_classes = number_classes;
+        this.number_classes = numberClasses;
     }
 
     public void addDataColumn(Vector col) {
