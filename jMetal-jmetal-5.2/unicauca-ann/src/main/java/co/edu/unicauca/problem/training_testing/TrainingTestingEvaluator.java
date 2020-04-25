@@ -20,6 +20,11 @@ public abstract class TrainingTestingEvaluator extends AbstractELMEvaluator {
 	 */
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
 	 * -----------------------------------------------------------------------------------------
 	 * Methods
 	 * -----------------------------------------------------------------------------------------

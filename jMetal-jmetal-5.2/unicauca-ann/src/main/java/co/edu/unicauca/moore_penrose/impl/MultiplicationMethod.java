@@ -10,6 +10,11 @@ import no.uib.cipr.matrix.Matrices;
 public class MultiplicationMethod extends AbstractMoorePenroseMethod {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * -----------------------------------------------------------------------------------------
      * Methods
      * -----------------------------------------------------------------------------------------
@@ -24,29 +29,29 @@ public class MultiplicationMethod extends AbstractMoorePenroseMethod {
     /**
      * MP(A) = ((A'A)^-1)A'
      *
-     * @param A matrix
+     * @param aMatrix matrix
      * @return pseudoinverse moore penrose of A
      */
-    public DenseMatrix calculate(DenseMatrix A) {
+    public DenseMatrix calculate(DenseMatrix aMatrix) {
 
-        int n = A.numRows();
-        int m = A.numColumns();
+        int n = aMatrix.numRows();
+        int m = aMatrix.numColumns();
         //A*
         DenseMatrix transpose = new DenseMatrix(m, n);
-        A.transpose(transpose);
+        aMatrix.transpose(transpose);
 
         //A*A
-        DenseMatrix ATransposeA = new DenseMatrix(m, m);
-        transpose.mult(A, ATransposeA);
+        DenseMatrix aMatrixTransposeA = new DenseMatrix(m, m);
+        transpose.mult(aMatrix, aMatrixTransposeA);
 
         //(AA∗)−1
-        DenseMatrix I = Matrices.identity(m);
-        DenseMatrix inv = I.copy();
-        ATransposeA.solve(I, inv);
+        DenseMatrix IiMatrix = Matrices.identity(m);
+        DenseMatrix inv = IiMatrix.copy();
+        aMatrixTransposeA.solve(IiMatrix, inv);
         //A∗(AA∗)−1
-        DenseMatrix moore_penrose = new DenseMatrix(m, n);
-        inv.mult(transpose, moore_penrose);
-        return moore_penrose;
+        DenseMatrix moorePenrose = new DenseMatrix(m, n);
+        inv.mult(transpose, moorePenrose);
+        return moorePenrose;
     }
 
 }

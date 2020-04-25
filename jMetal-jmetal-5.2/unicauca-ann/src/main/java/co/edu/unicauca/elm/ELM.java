@@ -4,14 +4,24 @@ import co.edu.unicauca.matrix.util.MatrixUtil;
 import co.edu.unicauca.moore_penrose.AbstractMoorePenroseMethod;
 import no.uib.cipr.matrix.DenseMatrix;
 import no.uib.cipr.matrix.DenseVector;
+
+import java.io.Serializable;
+import java.util.logging.Logger;
+
+import org.uma.jmetal.measure.impl.MeasureFactory;
+
 import co.edu.unicauca.elm_function.ELMFunction;
 import no.uib.cipr.matrix.Matrix;
 
 /**
  * Extreme Learning Machine
  */
-public class ELM {
+public class ELM implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	/**
 	 * -----------------------------------------------------------------------------------------
 	 * Constants
@@ -94,10 +104,6 @@ public class ELM {
 	 * Input data, where every column is a data set row
 	 */
 	private DenseMatrix xmatrix;
-	/**
-	 * Output training/testing data
-	 */
-	private DenseVector ymatrix;
 	/**
 	 * Tabular output data, represt the output data as a tabular matrix with -1 and
 	 * 1 values
@@ -355,7 +361,6 @@ public class ELM {
 	}
 
 	public void setY(DenseVector yMatrix) {
-		this.ymatrix = yMatrix;
 		this.tabular = tabularOutput(yMatrix);
 	}
 
