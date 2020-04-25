@@ -27,22 +27,22 @@ public abstract class TrainingTestingEvaluator extends AbstractELMEvaluator {
 	/**
 	 * Creates a trainig testing evaluator
 	 *
-	 * @param hidden_neurons      number of hidden neurons in the ELM
-	 * @param training_data_set   collection of data for training
-	 * @param testing_data_set    collection of data for testing
-	 * @param activation_function activation function use in ELM
+	 * @param hiddenNeurons      number of hidden neurons in the ELM
+	 * @param trainingDataSet   collection of data for training
+	 * @param testingDataSet    collection of data for testing
+	 * @param activationFunction activation function use in ELM
 	 * @param inverse             Method for calculating Moore Penrose v
 	 * @param name                Evaluator's name
 	 * @param maxEvaluations      Maximun number of evaluations for objective
 	 *                            function
 	 */
-	public TrainingTestingEvaluator(int hidden_neurons, DataSet training_data_set, DataSet testing_data_set,
-			ELMFunction activation_function, AbstractMoorePenroseMethod inverse, String name, int maxEvaluations) {
-		super(AbstractELMEvaluator.EvaluatorType.TT, name, training_data_set, testing_data_set);
-		super.elm = new ELM(ELMUtil.getELMType(training_data_set), hidden_neurons, activation_function,
-				training_data_set.getNumber_classes(), inverse);
-		this.elm.setX(training_data_set.getX());
-		this.elm.setY(training_data_set.getY());
+	public TrainingTestingEvaluator(int hiddenNeurons, DataSet trainingDataSet, DataSet testingDataSet,
+			ELMFunction activationFunction, AbstractMoorePenroseMethod inverse, String name, int maxEvaluations) {
+		super(AbstractELMEvaluator.EvaluatorType.TT, name, trainingDataSet, testingDataSet);
+		super.elm = new ELM(ELMUtil.getELMType(trainingDataSet), hiddenNeurons, activationFunction,
+				trainingDataSet.getNumberClasses(), inverse);
+		this.elm.setX(trainingDataSet.getX());
+		this.elm.setY(trainingDataSet.getY());
 		super.loadInitalConfiguration();
 	}
 
@@ -55,14 +55,14 @@ public abstract class TrainingTestingEvaluator extends AbstractELMEvaluator {
 	@Override
 	public double test(DoubleSolution solution) {
 		super.getInputWeightsBiasFrom(solution);
-		elm.setInputWeight(input_weights);
+		elm.setInputWeight(inputWeights);
 		elm.setBiasHiddenNeurons(bias);
 		elm.train();
-		elm.setX(testing_data_set.getX());
-		elm.setY(testing_data_set.getY());
+		elm.setX(testingDataSet.getX());
+		elm.setY(testingDataSet.getY());
 		elm.test();
-		this.elm.setX(training_data_set.getX());
-		this.elm.setY(training_data_set.getY());
+		this.elm.setX(trainingDataSet.getX());
+		this.elm.setY(trainingDataSet.getY());
 		return elm.getAccuracy();
 	}
 

@@ -17,7 +17,7 @@ import org.uma.jmetal.util.comparator.ObjectiveComparator;
  */
 public class RandomFactory extends AbstractBuilderFactory
 {
-    private final static Comparator<DoubleSolution> COMPARATOR_RANDOM = new ObjectiveComparator<>(0, ObjectiveComparator.Ordering.DESCENDING);
+    private static final Comparator<DoubleSolution> COMPARATOR_RANDOM = new ObjectiveComparator<>(0, ObjectiveComparator.Ordering.DESCENDING);
 
     public RandomFactory(AbstractParametersFactory parametersFactory) 
     {

@@ -19,128 +19,137 @@ import org.uma.jmetal.solution.DoubleSolution;
  */
 public abstract class AbstractCrossValidationEvaluator extends AbstractELMEvaluator {
 
-    /**
-     * -----------------------------------------------------------------------------------------
-     * Atributes
-     * -----------------------------------------------------------------------------------------
-     */
-    /**
-     * Number of folders
-     */
-    private int number_folders;   
-    /**
-     * Data sets for training ELM
-     */
-    private List<DataSet> training_folders;
-    /**
-     * Data sets for testing ELM
-     */
-    private List<DataSet> testing_folders;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	/**
+	 * -----------------------------------------------------------------------------------------
+	 * Atributes
+	 * -----------------------------------------------------------------------------------------
+	 */
+	/**
+	 * Number of folders
+	 */
+	private int numberFolders;
+	/**
+	 * Data sets for training ELM
+	 */
+	private List<DataSet> trainingFolders;
+	/**
+	 * Data sets for testing ELM
+	 */
+	private List<DataSet> testingFolders;
 
-    /**
-     * -----------------------------------------------------------------------------------------
-     * Methods
-     * -----------------------------------------------------------------------------------------
-     */
-    /**
-     * Creates a cross validation evaluator
-     *
-     * @param type
-     * @param name
-     * @param training_data_set
-     * @param testing_data_set
-     * @param number_folders
-     * @param hidden_neurons
-     * @param activation_function
-     * @param inverse
-     * @param maxEvaluations Maximun number of evaluations for objective
-     * function
-     */
-    public AbstractCrossValidationEvaluator(EvaluatorType type, String name, DataSet training_data_set, DataSet testing_data_set, int number_folders, int hidden_neurons, ELMFunction activation_function, AbstractMoorePenroseMethod inverse, int maxEvaluations) {
-        
-        super(type, name, training_data_set, testing_data_set);        
-        this.number_folders = number_folders;
-        super.elm = new ELM(ELMUtil.getELMType(training_data_set), hidden_neurons, activation_function, training_data_set.getNumber_classes(), inverse);
-        int input_neuron = training_data_set.getX().numRows();
-        super.elm.setInputNeurons(input_neuron);
-        makeFolders();
-        super.loadInitalConfiguration();
-    }
+	/**
+	 * -----------------------------------------------------------------------------------------
+	 * Methods
+	 * -----------------------------------------------------------------------------------------
+	 */
+	/**
+	 * Creates a cross validation evaluator
+	 *
+	 * @param type
+	 * @param name
+	 * @param trainingDataSet
+	 * @param testingdataSet
+	 * @param numberFolders
+	 * @param hiddenNeurons
+	 * @param activationFunction
+	 * @param inverse
+	 * @param maxEvaluations     Maximun number of evaluations for objective
+	 *                           function
+	 */
+	public AbstractCrossValidationEvaluator(EvaluatorType type, String name, DataSet trainingDataSet,
+			DataSet testingdataSet, int numberFolders, int hiddenNeurons, ELMFunction activationFunction,
+			AbstractMoorePenroseMethod inverse, int maxEvaluations) {
 
-    private void makeFolders() {
-        training_folders = new ArrayList<>();
-        testing_folders = new ArrayList<>();
-        int trainig_size = super.training_data_set.getX().numColumns();
-        int number_variables = training_data_set.getX().numRows();
-        int number_data = training_data_set.getX().numColumns();
-        int number_clases = training_data_set.getNumber_classes();
-        DenseMatrix x = training_data_set.getX();
-        DenseVector y = training_data_set.getY();
-        int aditionals = number_data % number_folders;
-        int sizeFolder = number_data / number_folders;
+		super(type, name, trainingDataSet, testingdataSet);
+		this.numberFolders = numberFolders;
+		super.elm = new ELM(ELMUtil.getELMType(trainingDataSet), hiddenNeurons, activationFunction,
+				trainingDataSet.getNumberClasses(), inverse);
+		int inputNeuron = trainingDataSet.getX().numRows();
+		super.elm.setInputNeurons(inputNeuron);
+		makeFolders();
+		super.loadInitalConfiguration();
+	}
 
-        for (int i = 0; i < number_folders; i++) {
-            if (i < aditionals) {
-                training_folders.add(new DataSet((sizeFolder * (number_folders - 1)) + (aditionals - 1), number_variables, number_clases));
-                testing_folders.add(new DataSet(sizeFolder + 1, number_variables, number_clases));
-            } else {
-                training_folders.add(new DataSet((sizeFolder * (number_folders - 1)) + aditionals, number_variables, number_clases));
-                testing_folders.add(new DataSet(sizeFolder, number_variables, number_clases));
-            }
-        }
+	private void makeFolders() {
+		trainingFolders = new ArrayList<>();
+		testingFolders = new ArrayList<>();
+		int trainigSize = super.trainingDataSet.getX().numColumns();
+		int numberVariables = trainingDataSet.getX().numRows();
+		int numberData = trainingDataSet.getX().numColumns();
+		int numberClases = trainingDataSet.getNumberClasses();
+		DenseMatrix x = trainingDataSet.getX();
+		DenseVector y = trainingDataSet.getY();
+		int aditionals = numberData % numberFolders;
+		int sizeFolder = numberData / numberFolders;
 
-        for (int i = 0; i < trainig_size; i++) {
-            Vector data = Matrices.getColumn(x, i);
-            double value = y.get(i);
-            int result = i % number_folders;
-            for (int j = 0; j < number_folders; j++) {
+		for (int i = 0; i < numberFolders; i++) {
+			if (i < aditionals) {
+				trainingFolders.add(new DataSet((sizeFolder * (numberFolders - 1)) + (aditionals - 1), numberVariables,
+						numberClases));
+				testingFolders.add(new DataSet(sizeFolder + 1, numberVariables, numberClases));
+			} else {
+				trainingFolders.add(
+						new DataSet((sizeFolder * (numberFolders - 1)) + aditionals, numberVariables, numberClases));
+				testingFolders.add(new DataSet(sizeFolder, numberVariables, numberClases));
+			}
+		}
 
-                if (result != j) {
-                    DataSet training = training_folders.get(j);
-                    training.addDataColumn(data);
-                    training.addValueColumn(value);
-                    training.nextIndex();
-                } else {
-                    DataSet testing = testing_folders.get(j);
-                    testing.addDataColumn(data);
-                    testing.addValueColumn(value);
-                    testing.nextIndex();
-                }
+		for (int i = 0; i < trainigSize; i++) {
+			Vector data = Matrices.getColumn(x, i);
+			double value = y.get(i);
+			int result = i % numberFolders;
+			for (int j = 0; j < numberFolders; j++) {
 
-            }
-        }
-        
-    }
+				if (result != j) {
+					DataSet training = trainingFolders.get(j);
+					training.addDataColumn(data);
+					training.addValueColumn(value);
+					training.nextIndex();
+				} else {
+					DataSet testing = testingFolders.get(j);
+					testing.addDataColumn(data);
+					testing.addValueColumn(value);
+					testing.nextIndex();
+				}
 
-    @Override
-    public double train() {
-        double accuracy = 0.0;
-        for (int i = 0; i < number_folders; i++) {
-            DataSet training = training_folders.get(i);
-            DataSet testing = testing_folders.get(i);
-            elm.setX(training.getX());
-            elm.setY(training.getY());
-            elm.train();
-            elm.setX(testing.getX());
-            elm.setY(testing.getY());
-            elm.test();
-            accuracy += elm.getAccuracy();
-        }
+			}
+		}
 
-        return (double) (accuracy / (double) number_folders);
-    }
-    
-    @Override
-    public double test(DoubleSolution solution) {
-        super.getInputWeightsBiasFrom(solution);
-        elm.setInputWeight(input_weights);
-        elm.setBiasHiddenNeurons(bias);
-        elm.setX(training_data_set.getX());
-        elm.setY(training_data_set.getY());
-        elm.train();
-        elm.setX(testing_data_set.getX());
-        elm.setY(testing_data_set.getY());
-        elm.test();        
-        return elm.getAccuracy();
-    }
+	}
+
+	@Override
+	public double train() {
+		double accuracy = 0.0;
+		for (int i = 0; i < numberFolders; i++) {
+			DataSet training = trainingFolders.get(i);
+			DataSet testing = testingFolders.get(i);
+			elm.setX(training.getX());
+			elm.setY(training.getY());
+			elm.train();
+			elm.setX(testing.getX());
+			elm.setY(testing.getY());
+			elm.test();
+			accuracy += elm.getAccuracy();
+		}
+
+		return accuracy / numberFolders;
+	}
+
+	@Override
+	public double test(DoubleSolution solution) {
+		super.getInputWeightsBiasFrom(solution);
+		elm.setInputWeight(inputWeights);
+		elm.setBiasHiddenNeurons(bias);
+		elm.setX(trainingDataSet.getX());
+		elm.setY(trainingDataSet.getY());
+		elm.train();
+		elm.setX(testingDataSet.getX());
+		elm.setY(testingDataSet.getY());
+		elm.test();
+		return elm.getAccuracy();
+	}
 }

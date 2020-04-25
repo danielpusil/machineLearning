@@ -93,11 +93,11 @@ public class ELM {
 	/**
 	 * Input data, where every column is a data set row
 	 */
-	private DenseMatrix xMatriz;
+	private DenseMatrix xmatrix;
 	/**
 	 * Output training/testing data
 	 */
-	private DenseVector yMatriz;
+	private DenseVector ymatrix;
 	/**
 	 * Tabular output data, represt the output data as a tabular matrix with -1 and
 	 * 1 values
@@ -167,18 +167,18 @@ public class ELM {
 		}
 
 		// Get output matrix from hidden layer
-		DenseMatrix hMatrizLocal = calculateH(xMatriz);
+		DenseMatrix hmatrixLocal = calculateH(xmatrix);
 		try {
 			// MultiplicationMethod.getMoorePenroseInverse(0.000001, H)
-			DenseMatrix pinvH = inverse.calculate(hMatrizLocal);
+			DenseMatrix pinvH = inverse.calculate(hmatrixLocal);
 			DenseMatrix transT = new DenseMatrix(numberData, outputNeurons);
 			tabular.transpose(transT);
 
 			outputWeight = new DenseMatrix(hiddenNeurons, outputNeurons);
 			pinvH.mult(transT, outputWeight);
 
-			DenseMatrix tMatrizLocal = calculateOutput(hMatrizLocal, numberData);
-			accuracy = evaluate(tabular, tMatrizLocal);
+			DenseMatrix tmatrixLocal = calculateOutput(hmatrixLocal, numberData);
+			accuracy = evaluate(tabular, tmatrixLocal);
 			trained = true;
 		} catch (Exception ex) {
 			accuracy = 0;
@@ -191,7 +191,7 @@ public class ELM {
 	public void test() {
 		// Get output matrix from hidden layer
 		if (trained) {
-			DenseMatrix hMatrixLocal = calculateH(xMatriz);
+			DenseMatrix hMatrixLocal = calculateH(xmatrix);
 			DenseMatrix tMatrixLocal = calculateOutput(hMatrixLocal, numberData);
 			accuracy = evaluate(tabular, tMatrixLocal);
 		} else {
@@ -203,10 +203,10 @@ public class ELM {
 	 * Calculate the matrix's output
 	 */
 	private DenseMatrix calculateOutput(DenseMatrix hMatrix, int numData) {
-		DenseMatrix tTempMatriz = new DenseMatrix(numData, outputNeurons);
-		hMatrix.mult(outputWeight, tTempMatriz);
+		DenseMatrix tTempmatrix = new DenseMatrix(numData, outputNeurons);
+		hMatrix.mult(outputWeight, tTempmatrix);
 		DenseMatrix tTemp = new DenseMatrix(outputNeurons, numData);
-		tTempMatriz.transpose(tTemp);
+		tTempmatrix.transpose(tTemp);
 		return tTemp;
 	}
 
@@ -235,10 +235,10 @@ public class ELM {
 				hTemp.set(i, j, function.evaluate(tempH.get(i, j)));
 			}
 		}
-		DenseMatrix hMatriz = new DenseMatrix(numData, hiddenNeurons);
-		hTemp.transpose(hMatriz);
+		DenseMatrix hmatrix = new DenseMatrix(numData, hiddenNeurons);
+		hTemp.transpose(hmatrix);
 
-		return hMatriz;
+		return hmatrix;
 	}
 
 	/**
@@ -355,7 +355,7 @@ public class ELM {
 	}
 
 	public void setY(DenseVector yMatrix) {
-		this.yMatriz = yMatrix;
+		this.ymatrix = yMatrix;
 		this.tabular = tabularOutput(yMatrix);
 	}
 
@@ -368,13 +368,13 @@ public class ELM {
 	}
 
 	public void setX(DenseMatrix xMatrix) {
-		this.xMatriz = xMatrix;
-		this.numberData = this.xMatriz.numColumns();
-		this.inputNeurons = this.xMatriz.numRows();
+		this.xmatrix = xMatrix;
+		this.numberData = this.xmatrix.numColumns();
+		this.inputNeurons = this.xmatrix.numRows();
 	}
 
 	public DenseMatrix getX() {
-		return xMatriz;
+		return xmatrix;
 	}
 
 	/**

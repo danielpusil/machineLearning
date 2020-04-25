@@ -738,7 +738,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
   public void EBEsInitialize(String file) throws FileNotFoundException {
     // CALCULAR dd Y CA (CANTIDADES DE NUDOS COARTADOS) AL CARGAR EL ARCHIVO
     // CON ESTO EVITO RECALCULARLOS CADA VEZ QUE SE BUSCA UNA SOLUCIÃƒÂ³N
-    // CONTAR EN PENALIZACIÃƒÂ³N DE LA MATRIZ CA Y NO CN, CON ESTO
+    // CONTAR EN PENALIZACIÃƒÂ³N DE LA matrix CA Y NO CN, CON ESTO
     // EVITO RECORRER INNECESARIAMENTE TODOS LOS NUDOS
 
     setName("Ebes");
@@ -1521,11 +1521,11 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
         EBEsMatrixWeight(hi);
 
         EBEsMatrixGlobalFactory(countIter);
-        //imprime la matriz de rigidez
+        //imprime la matrix de rigidez
         //EBEsPrintArchTxtMKG("1", hi);
 
         EBEsMatrixGlobalPenalization();
-        // matriz penalizada
+        // matrix penalizada
         //EBEsPrintArchTxtMKG("2", hi);
 
         EBEsEcuationSolution(hi);
@@ -1663,20 +1663,20 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
         Kjj=EBEsMatrixAdd(Kjj, KjjSOG);
       }
 
-      // matriz de rotaciÃƒÂ³n de ejes principales de secciÃƒÂ³n a ejes locales (xp,yp)
+      // matrix de rotaciÃƒÂ³n de ejes principales de secciÃƒÂ³n a ejes locales (xp,yp)
       EBEsMatRot3DLpSaL(el);
-      // matriz de rotaciÃƒÂ³n de ejes locales a globales (x,y)
+      // matrix de rotaciÃƒÂ³n de ejes locales a globales (x,y)
       EBEsMatRot3DLaG(el);
-      //formaciÃƒÂ³n y cÃƒÂ¡lculo de la matriz de rigidez de cada barra 3D en coordenadas globales
+      //formaciÃƒÂ³n y cÃƒÂ¡lculo de la matrix de rigidez de cada barra 3D en coordenadas globales
       EBEsMat3DGij();
-      // FORMACION DE LA MATRIZ DE RIGIDEZ de la estructura en coordenada globales
+      // FORMACION DE LA matrix DE RIGIDEZ de la estructura en coordenada globales
       EBEsMat3DG(el);
     } // next el
 
   }
   public void EBEsMatrixGlobalPenalization(){
 
-    // penalizaciÃƒÂ³n de la matriz asignando coacciones de nudos (apoyos)
+    // penalizaciÃƒÂ³n de la matrix asignando coacciones de nudos (apoyos)
     for(int i = 0; i<numberOfNodesRestricts_; i++){
       int no=(int)NodeRestrict_[i][0];
       //trasforma el nÃƒÆ’Ã‚Âºmero en cÃƒÂ³digo texto caracterizando las coacciones;
@@ -1684,7 +1684,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
       String str="";
       for(int j=numberOfLibertyDegree_;j>strCxyz.length();j--){str+="0";}
       strCxyz=str+strCxyz;
-      // penalizaciÃƒÂ³n de la matriz de rigidez
+      // penalizaciÃƒÂ³n de la matrix de rigidez
 
       char w0 = strCxyz.charAt(aX_); //sentido en X
       if(w0 == '1'){
@@ -1872,7 +1872,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     double lz = Element_[el][L_] * Math.cos(G1);
 
     if (vi == 0 && vj == 0) {
-      //EMP-EMP, debe multiplicarse por la matriz de rotaciÃƒÂ³n para
+      //EMP-EMP, debe multiplicarse por la matrix de rotaciÃƒÂ³n para
 
       //fuerza en sentido Global X
       if (Math.abs(lx) < 0.0000001 && ly != 0 && lz != 0.0){
@@ -2132,25 +2132,25 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     }
 
 
-    //matriz de rotaciÃƒÂ³n de la barra del sistema principal al local
+    //matrix de rotaciÃƒÂ³n de la barra del sistema principal al local
     EBEsMatRot3DLpSaL(el);
 
-    //matriz de rotaciÃƒÂ³n de la barra del local al global
+    //matrix de rotaciÃƒÂ³n de la barra del local al global
     EBEsMatRot3DLaG(el);
 
     //para el extremo ii
     //pi = (Rpij * Rij) * Qi
-    R = EBEsMatrizMultiplicar(Rpij, Rij);
-    pi = EBEsMatrizVectorMultiplicar(R, Qi);
+    R = EBEsmatrixMultiplicar(Rpij, Rij);
+    pi = EBEsmatrixVectorMultiplicar(R, Qi);
 
     //para el extremo jj
     //pj = ( Rpji * Rji) * Qj
-    R = EBEsMatrizMultiplicar(Rpji, Rji);
-    pj= EBEsMatrizVectorMultiplicar(R, Qj);
+    R = EBEsmatrixMultiplicar(Rpji, Rji);
+    pj= EBEsmatrixVectorMultiplicar(R, Qj);
   }
 
   public void EBEsMatRot3DLpSaL(int e){
-    //matriz de rotaciÃƒÂ³n 3D en ejes principales "yp,zp" de la secciÃƒÂ³n "S" a ejes LOCALES "y,z"
+    //matrix de rotaciÃƒÂ³n 3D en ejes principales "yp,zp" de la secciÃƒÂ³n "S" a ejes LOCALES "y,z"
     //cuando los ejes principales de la secciÃƒÂ³n estÃƒÂ¡n rotados un ÃƒÂ¡ngulo Beta respecto al sistema global
 
     int i , j;
@@ -2182,7 +2182,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     mz = -Math.sin(beta * Math.PI / 180.0);
     nz = Math.cos(beta * Math.PI / 180.0);
 
-    //matriz de rotaciÃƒÂ³n de desplazamientos locales a ejes globales XYZ si los ejes principales de la
+    //matrix de rotaciÃƒÂ³n de desplazamientos locales a ejes globales XYZ si los ejes principales de la
     //secciÃƒÂ³n "yp,zp" coinciden con los ejes locales "y,z" de la barra
     //para el nudo i de la barra ij
     Rpij[0][0] = lx; Rpij[0][1] = mx; Rpij[0][2] = nx;
@@ -2202,8 +2202,8 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     Rpij[4][3] = ly; Rpij[4][4] = my; Rpij[4][5] = ny;
     Rpij[5][3] = lz; Rpij[5][4] = mz; Rpij[5][5] = nz;
 
-    //trasponer la matriz de rotaciÃƒÂ³n
-    RpTij = EBEsMatrizTraspuesta(Rpij);
+    //trasponer la matrix de rotaciÃƒÂ³n
+    RpTij = EBEsmatrixTraspuesta(Rpij);
 
     //para el nudo j de la barra ij
     lx = 1.0;
@@ -2235,12 +2235,12 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     Rpji[4][3] = ly; Rpji[4][4] = my; Rpji[4][5] = ny;
     Rpji[5][3] = lz; Rpji[5][4] = mz; Rpji[5][5] = nz;
 
-    //trasponer la matriz de rotaciÃƒÂ³n
-    RpTji = EBEsMatrizTraspuesta(Rpji);
+    //trasponer la matrix de rotaciÃƒÂ³n
+    RpTji = EBEsmatrixTraspuesta(Rpji);
 
   }
 
-  public double [][]EBEsMatrizTraspuesta(double m[][]){
+  public double [][]EBEsmatrixTraspuesta(double m[][]){
 
     int row=m.length;
     int col=m[0].length;
@@ -3212,7 +3212,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
 
 
   public void EBEsMatRot3DLaG(int e) throws JMetalException{
-    // matriz de rotaciÃƒÂ³n 3D de desplazamientos de ejes Locales a Generales
+    // matrix de rotaciÃƒÂ³n 3D de desplazamientos de ejes Locales a Generales
     int i, j;
     // cosenos directores de x local respecto al sistema global
     double lx; // cosenos directo respecto del eje local x (coincidente con el eje de la barra) y el eje X Global
@@ -3265,7 +3265,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
       nz = D;
     }
 
-    // matriz de rotaciÃƒÂ³n de desplazamientos locales a ejes globales XYZ si los ejes principales de la
+    // matrix de rotaciÃƒÂ³n de desplazamientos locales a ejes globales XYZ si los ejes principales de la
     // secciÃƒÂ³n "yp,zp" coinciden con los ejes locales "y,z" de la barra
     // para el nudo i de la barra ij
     Rij[0][0]=lx; Rij[0][1]=mx; Rij[0][2]=nx;
@@ -3285,10 +3285,10 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     Rij[4][3] = ly; Rij[4][4] = my; Rij[4][5] = ny;
     Rij[5][3] = lz; Rij[5][4] = mz; Rij[5][5] = nz;
 
-    // trasponer la matriz de rotaciÃƒÂ³n
-    RTij = EBEsMatrizTraspuesta(Rij);
+    // trasponer la matrix de rotaciÃƒÂ³n
+    RTij = EBEsmatrixTraspuesta(Rij);
 
-    // matriz de rotaciÃƒÂ³n de desplazamientos locales a ejes globales XYZ si los ejes principales de la
+    // matrix de rotaciÃƒÂ³n de desplazamientos locales a ejes globales XYZ si los ejes principales de la
     // secciÃƒÂ³n "yp,zp" coinciden con los ejes locales "y,z" de la barra
     // para el nudo j de la barra ij
     Rji[0][0]=-lx; Rji[0][1]=-mx; Rji[0][2]=-nx;
@@ -3308,13 +3308,13 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     Rji[4][3]=-ly; Rji[4][4]=-my; Rji[4][5]= ny;
     Rji[5][3]= lz; Rji[5][4]= mz; Rji[5][5]= nz;
 
-    // trasponer la matriz de rotaciÃƒÂ³n
-    RTji=EBEsMatrizTraspuesta(Rji);
+    // trasponer la matrix de rotaciÃƒÂ³n
+    RTji=EBEsmatrixTraspuesta(Rji);
 
   }
 
   public void EBEsMat3DGij() throws JMetalException{
-    // CONSTRUYE LA MATRIZ DE RIGIDEZ DE UNA BARRA EN COORDENADAS GLOBALES
+    // CONSTRUYE LA matrix DE RIGIDEZ DE UNA BARRA EN COORDENADAS GLOBALES
 
     double [][]r=new double[numberOfLibertyDegree_][numberOfLibertyDegree_];
     double [][]s=new double[numberOfLibertyDegree_][numberOfLibertyDegree_];
@@ -3322,37 +3322,37 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
 
     // para el extremo ii
     // KGii = RTij * RpTij * KjjSOGSOGSOG * Rpij * Rij
-    r=EBEsMatrizMultiplicar(Rpij, Rij);
-    s=EBEsMatrizMultiplicar(Kii, r);
-    t=EBEsMatrizMultiplicar(RpTij, s);
-    KGii=EBEsMatrizMultiplicar(RTij, t);
+    r=EBEsmatrixMultiplicar(Rpij, Rij);
+    s=EBEsmatrixMultiplicar(Kii, r);
+    t=EBEsmatrixMultiplicar(RpTij, s);
+    KGii=EBEsmatrixMultiplicar(RTij, t);
 
     // para el extremo ij
     // KGij = RTij * RpTij * Kij * Rpji * Rji
-    r=EBEsMatrizMultiplicar(Rpji, Rji);
-    s=EBEsMatrizMultiplicar(Kij, r);
-    t=EBEsMatrizMultiplicar(RpTij, s);
-    KGij=EBEsMatrizMultiplicar(RTij, t);
+    r=EBEsmatrixMultiplicar(Rpji, Rji);
+    s=EBEsmatrixMultiplicar(Kij, r);
+    t=EBEsmatrixMultiplicar(RpTij, s);
+    KGij=EBEsmatrixMultiplicar(RTij, t);
 
     // para el extremo ji
     // KGji = RTji * RpTji * Kji * Rpij * Rij
-    r=EBEsMatrizMultiplicar(Rpij, Rij);
-    s=EBEsMatrizMultiplicar(Kji, r);
-    t=EBEsMatrizMultiplicar(RpTji, s);
-    KGji=EBEsMatrizMultiplicar(RTji, t);
+    r=EBEsmatrixMultiplicar(Rpij, Rij);
+    s=EBEsmatrixMultiplicar(Kji, r);
+    t=EBEsmatrixMultiplicar(RpTji, s);
+    KGji=EBEsmatrixMultiplicar(RTji, t);
 
     // para el extremo jj
     // KGjj = RTji * RpTji * Kjj* Rpji * Rji
-    r=EBEsMatrizMultiplicar(Rpji, Rji);
-    s=EBEsMatrizMultiplicar(Kjj, r);
-    t=EBEsMatrizMultiplicar(RpTji, s);
-    KGjj=EBEsMatrizMultiplicar(RTji, t);
+    r=EBEsmatrixMultiplicar(Rpji, Rji);
+    s=EBEsmatrixMultiplicar(Kjj, r);
+    t=EBEsmatrixMultiplicar(RpTji, s);
+    KGjj=EBEsmatrixMultiplicar(RTji, t);
 
   } // end module
 
   public void EBEsMat3DG(int e)throws JMetalException{
 
-    // ELEMENTO DE BARRA 3D QUE FORMA LA MATRIZ DE RIGIDEZ EN COORDENADAS GLOBALES
+    // ELEMENTO DE BARRA 3D QUE FORMA LA matrix DE RIGIDEZ EN COORDENADAS GLOBALES
     // i: rÃƒÂ­gido
     // j: rÃƒÂ­gido
     int ni, nj;
@@ -3371,7 +3371,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     int r5;
     int r6;
 
-    // ELEMENTOS DE LA MATRIZ QUE CORRESPONDEN AL ELEMENTO i
+    // ELEMENTOS DE LA matrix QUE CORRESPONDEN AL ELEMENTO i
     ni=(int)Element_[e][i_];
     nj=(int)Element_[e][j_];
     p = numberOfLibertyDegree_ * ni;
@@ -3382,7 +3382,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     p4 = matrixWidthBand_ * (p + 3);
     p5 = matrixWidthBand_ * (p + 4);
     p6 = matrixWidthBand_ * (p + 5);
-    // ELEMENTOS DE LA MATRIZ QUE QUE CORRESPONDEN AL ELEMENTO j
+    // ELEMENTOS DE LA matrix QUE QUE CORRESPONDEN AL ELEMENTO j
     r1 = matrixWidthBand_ * r;
     r2 = matrixWidthBand_ * (r + 1);
     r3 = matrixWidthBand_ * (r + 2);
@@ -3390,7 +3390,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     r5 = matrixWidthBand_ * (r + 4);
     r6 = matrixWidthBand_ * (r + 5);
 
-    // ELEMENTOS DE LA MATRIZ QUE CORRESPONDEN AL EXTREMO j
+    // ELEMENTOS DE LA matrix QUE CORRESPONDEN AL EXTREMO j
     // 0Ã‚Â° fila
     MatrixStiffness_[p1] = MatrixStiffness_[p1] + KGii[0][0]; // 0
     MatrixStiffness_[p1 + 1] = MatrixStiffness_[p1 + 1] + KGii[0][1]; // 1
@@ -3454,7 +3454,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
     MatrixStiffness_[p6 + r - p - 2] = KGij[5][3]; // 64
     MatrixStiffness_[p6 + r - p - 1] = KGij[5][4]; // 65
     MatrixStiffness_[p6 + r - p] = KGij[5][5]; // 66
-    // ELEMENTOS DE LA MATRIZ QUE CORRESPONDEN AL EXTREMO i
+    // ELEMENTOS DE LA matrix QUE CORRESPONDEN AL EXTREMO i
     // 6Ã‚Â° fila
     MatrixStiffness_[r1] = MatrixStiffness_[r1] + KGjj[0][0]; // 72
     MatrixStiffness_[r1 + 1] = MatrixStiffness_[r1 + 1] + KGjj[0][1]; // 73
@@ -3485,7 +3485,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
 
   }
 
-  public double []EBEsMatrizVectorMultiplicar(double [][]s, double[]t) throws JMetalException{
+  public double []EBEsmatrixVectorMultiplicar(double [][]s, double[]t) throws JMetalException{
 
     int f, c;
     double []r = new double [t.length];
@@ -3501,7 +3501,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
 
   } // end module
 
-  public double [][]EBEsMatrizMultiplicar(double [][]s, double[][]t) throws JMetalException{
+  public double [][]EBEsmatrixMultiplicar(double [][]s, double[][]t) throws JMetalException{
 
     int f, c, q;
     double [][]r = new double [s.length][t[0].length];
@@ -3576,13 +3576,13 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
 
       //ProyecciÃƒÂ³n de los esfuerzos de barras sobre los ejes generales
       //en el nudo i
-      ri = EBEsMatrizMultiplicar(RTij, RpTij);
-      egi = EBEsMatrizVectorMultiplicar(ri, ei);
+      ri = EBEsmatrixMultiplicar(RTij, RpTij);
+      egi = EBEsmatrixVectorMultiplicar(ri, ei);
 
       //ProyecciÃƒÂ³n de los esfuerzos de barras sobre los ejes generales
       //en el nudo j
-      rj = EBEsMatrizMultiplicar(RTji, RpTji);
-      egj = EBEsMatrizVectorMultiplicar(rj, ej);
+      rj = EBEsmatrixMultiplicar(RTji, RpTji);
+      egj = EBEsmatrixVectorMultiplicar(rj, ej);
 
       //sumatoria de esfuerzos concurrentes al nudo
       int ni = (int)Element_[ba][i_];
@@ -3637,9 +3637,9 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
       double   []eji = new double[numberOfLibertyDegree_];
       double   []ejj = new double[numberOfLibertyDegree_];
 
-      // matriz de rotaciÃƒÂ³n de la barra del sistema principal al local
+      // matrix de rotaciÃƒÂ³n de la barra del sistema principal al local
       EBEsMatRot3DLpSaL(ba);
-      // matriz de rotaciÃƒÂ³n de la barra del local al global
+      // matrix de rotaciÃƒÂ³n de la barra del local al global
       EBEsMatRot3DLaG(ba);
 
       // desplazamientos calculados
@@ -3652,27 +3652,27 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
 
       // para el extremo ii
       // eii = (Kii * Rpij * Rij) * Di
-      r=EBEsMatrizMultiplicar(Rpij, Rij);
-      s=EBEsMatrizMultiplicar(Kii, r);
-      eii=EBEsMatrizVectorMultiplicar(s, di);
+      r=EBEsmatrixMultiplicar(Rpij, Rij);
+      s=EBEsmatrixMultiplicar(Kii, r);
+      eii=EBEsmatrixVectorMultiplicar(s, di);
 
       // para el extremo ij
       // eij = (Kij * Rpji * Rji) * Dj
-      r=EBEsMatrizMultiplicar(Rpji, Rji);
-      s=EBEsMatrizMultiplicar(Kij, r);
-      eij=EBEsMatrizVectorMultiplicar(s, dj);
+      r=EBEsmatrixMultiplicar(Rpji, Rji);
+      s=EBEsmatrixMultiplicar(Kij, r);
+      eij=EBEsmatrixVectorMultiplicar(s, dj);
 
       // para el extremo ji
       // eji =(Kji * Rpij * Rij) * Di
-      r=EBEsMatrizMultiplicar(Rpij, Rij);
-      s=EBEsMatrizMultiplicar(Kji, r);
-      eji=EBEsMatrizVectorMultiplicar(s, di);
+      r=EBEsmatrixMultiplicar(Rpij, Rij);
+      s=EBEsmatrixMultiplicar(Kji, r);
+      eji=EBEsmatrixVectorMultiplicar(s, di);
 
       // para el extremo jj
       // ejj= (Kjj * Rpji * Rji) * Dj
-      r=EBEsMatrizMultiplicar(Rpji, Rji);
-      s=EBEsMatrizMultiplicar(Kjj, r);
-      ejj=EBEsMatrizVectorMultiplicar(s, dj);
+      r=EBEsmatrixMultiplicar(Rpji, Rji);
+      s=EBEsmatrixMultiplicar(Kjj, r);
+      ejj=EBEsmatrixVectorMultiplicar(s, dj);
 
       for(i=0; i<numberOfLibertyDegree_; i++){
         Efforti_[i][ba][hi] = eii[i] + eij[i];
@@ -3695,7 +3695,7 @@ public class Ebes extends AbstractDoubleProblem implements ConstrainedProblem<Do
         str+="0";
       }
       strCxyz=str+strCxyz;
-      // penalizaciÃƒÂ³n de la matriz de rigidez
+      // penalizaciÃƒÂ³n de la matrix de rigidez
 
       char w0 = strCxyz.charAt(aX_); //sentido en X
       if(w0 == '1'){
@@ -4731,7 +4731,7 @@ public void EbesMutation(int groupId, int hi, Variable[] x) {
 
     try {
       PrintStream ps = new PrintStream("EBEs-MKLB(" + e + ").txt");
-      // impresion de la matriz de rigidez penalizada
+      // impresion de la matrix de rigidez penalizada
       // extremo ii
       ps.print("kii" + e + "=[");
       for(int o = 0; o<6; o++){
@@ -4808,7 +4808,7 @@ public void EbesMutation(int groupId, int hi, Variable[] x) {
   public void EBEsPrintArchTxtMKG(String s, int hi) throws JMetalException{
     try {
       PrintStream ps = new PrintStream("EBEs-M"+s+"-H(" + hi + ").txt");
-      // impresion de la matriz de rigidez penalizada
+      // impresion de la matrix de rigidez penalizada
       // extremo ii
       for(int o = 0; o<MatrixStiffness_.length; o++){
         ps.printf("(%5d) - %15.4f", o, MatrixStiffness_[o]);
@@ -4824,7 +4824,7 @@ public void EbesMutation(int groupId, int hi, Variable[] x) {
   public void EBEsPrintArchTxtDesp(int hi) throws JMetalException{
     try {
       PrintStream ps = new PrintStream("EBEs-Desp-H(" + hi + ").txt");
-      // impresion de la matriz de rigidez penalizada
+      // impresion de la matrix de rigidez penalizada
       // extremo ii
       for(int o = 0; o<DisplacementNodes_.length; o++){
         ps.printf("(%5d, %2d) = %20.16f", o, hi, DisplacementNodes_[o][hi]);
@@ -4840,7 +4840,7 @@ public void EbesMutation(int groupId, int hi, Variable[] x) {
   public void EBEsPrintArchTxtEfforts(int hi) throws JMetalException{
     try {
       PrintStream ps = new PrintStream("EBEs-Efforts-H(" + hi + ").txt");
-      // impresion de la matriz de rigidez penalizada
+      // impresion de la matrix de rigidez penalizada
       // extremo ii
       for(int ba=0; ba<Element_.length; ba++){
         int ni = (int)Element_[ba][i_];
@@ -4862,7 +4862,7 @@ public void EbesMutation(int groupId, int hi, Variable[] x) {
 
       for(int hi=0; hi<numberOfWeigthHypothesis_; hi++){
         PrintStream ps = new PrintStream("EBEs-Strain-H(" + hi + ").txt");
-        // impresion de la matriz de rigidez penalizada
+        // impresion de la matrix de rigidez penalizada
         // extremo ii
         ps.printf("Elements  Nodo   Stracc    Scomp     Scut");
         ps.println();
@@ -4892,7 +4892,7 @@ public void EbesMutation(int groupId, int hi, Variable[] x) {
       ps.println();
       ps.printf("--------------------------------------------");
       ps.println();
-      // impresion de la matriz de rigidez penalizada
+      // impresion de la matrix de rigidez penalizada
       // extremo ii
       for(int o = 0; o<NodeRestrict_.length; o++){
         int no = (int)NodeRestrict_[o][0];

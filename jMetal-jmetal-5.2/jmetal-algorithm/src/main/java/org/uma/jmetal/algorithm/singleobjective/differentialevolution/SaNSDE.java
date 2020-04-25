@@ -31,23 +31,23 @@ public class SaNSDE extends AbstractDifferentialEvolution<DoubleSolution>
     /**
      * Mean used for getting next gaussian value - it is use for calculating f value 
      */
-    private final static double MEAN = 0.5;
+    private static final double MEAN = 0.5;
     /**
      * Standar deviation used for getting next gaussian value - it is use for calculating f value 
      */
-    private final static double STANDAR_DEVIATION = 0.5;
+    private static final double STANDAR_DEVIATION = 0.5;
     /**
      * Location parameter for cauchy distribution - it is use for calculating f value 
      */
-    private final static double X0 = 0;
+    private static final double X0 = 0;
     /**
      * Scale parameter for cauchy distribution - it is use for calculating f value 
      */
-    private final static double Y_F = 1;
+    private static final double Y_F = 1;
     /**
      * Scale parameter for cauchy distribution - it is use for calculating crossover rate value for an individual
      */
-    private final static double Y_CR = 0.1;    
+    private static final double Y_CR = 0.1;    
     
     
     

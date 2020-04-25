@@ -6,41 +6,41 @@ import no.uib.cipr.matrix.Matrices;
 
 public class RidgeRegressionTheory extends AbstractMoorePenroseMethod {
 
-    /**
-     * -----------------------------------------------------------------------------------------
-     * Methods
-     *-----------------------------------------------------------------------------------------
-     */
-    public RidgeRegressionTheory(double[] values) {
-        super(values);
-    }
+	/**
+	 * -----------------------------------------------------------------------------------------
+	 * Methods
+	 * -----------------------------------------------------------------------------------------
+	 */
+	public RidgeRegressionTheory(double[] values) {
+		super(values);
+	}
 
-    @Override
-    public DenseMatrix calculate(DenseMatrix A){
-        /*	Moore-Penrose generalized inverse maxtrix
-         * 	Theory:Ridge regression
-         *	MP(A) = inv((H'*H+lumda*I))*H'
-         */
+	@Override
+	public DenseMatrix calculate(DenseMatrix aMatrix) {
+		/*
+		 * Moore-Penrose generalized inverse maxtrix Theory:Ridge regression MP(A) =
+		 * inv((H'*H+lumda*I))*H'
+		 */
 
-        if (values == null || values.length == 0) {
-            throw new UnsupportedOperationException("Values must contain lumda value in its first position.");
-        }
-        double lumda = values[0];
-        int n = A.numColumns();
-        int m = A.numRows();
+		if (values == null || values.length == 0) {
+			throw new UnsupportedOperationException("Values must contain lumda value in its first position.");
+		}
+		double lumda = values[0];
+		int n = aMatrix.numColumns();
+		int m = aMatrix.numRows();
 
-        DenseMatrix At = new DenseMatrix(n, m);
-        A.transpose(At);
-        DenseMatrix AtA = new DenseMatrix(n, n);
-        At.mult(A, AtA);
+		DenseMatrix aMatrizt = new DenseMatrix(n, m);
+		aMatrix.transpose(aMatrizt);
+		DenseMatrix aMatrixtA = new DenseMatrix(n, n);
+		aMatrizt.mult(aMatrix, aMatrixtA);
 
-        DenseMatrix I = Matrices.identity(n);
-        AtA.add(lumda, I);
-        DenseMatrix AtAinv = I.copy();
-        AtA.solve(I, AtAinv);
-        DenseMatrix Ainv = new DenseMatrix(n, m);
-        AtAinv.mult(At, Ainv);
-        return Ainv;
-    }
+		DenseMatrix iMatrix = Matrices.identity(n);
+		aMatrixtA.add(lumda, iMatrix);
+		DenseMatrix aMatrixtAinv = iMatrix.copy();
+		aMatrixtA.solve(iMatrix, aMatrixtAinv);
+		DenseMatrix Ainv = new DenseMatrix(n, m);
+		aMatrixtAinv.mult(aMatrizt, Ainv);
+		return Ainv;
+	}
 
 }

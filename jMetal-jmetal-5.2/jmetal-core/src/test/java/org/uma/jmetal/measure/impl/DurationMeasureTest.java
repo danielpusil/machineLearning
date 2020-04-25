@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 public class DurationMeasureTest {
 
-	private final static long DEFAULT_LIMIT = 100;
+	private static final long DEFAULT_LIMIT = 100;
 
 	@Test
 	public void testNoRunningRemainsAtZero() throws InterruptedException {

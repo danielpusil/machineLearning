@@ -50,7 +50,7 @@ public class DifferentialEvolutionFactory extends AbstractBuilderFactory {
     private double CR_MEMETIC_DE;
     private double F_MEMETIC_DE;
     private int POPULATION_MEMETIC;
-    private final static Comparator<DoubleSolution> COMPARATOR_MEMETIC = new ObjectiveComparator<>(0, ObjectiveComparator.Ordering.DESCENDING);
+    private static final Comparator<DoubleSolution> COMPARATOR_MEMETIC = new ObjectiveComparator<>(0, ObjectiveComparator.Ordering.DESCENDING);
 
     private int DECCG_POPULATION;
 
