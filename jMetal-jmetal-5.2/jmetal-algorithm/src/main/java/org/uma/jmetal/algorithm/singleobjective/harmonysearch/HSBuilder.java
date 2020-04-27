@@ -17,10 +17,22 @@ public class HSBuilder implements AlgorithmBuilder<HS> {
 	 */
 	private DoubleProblem problem;
 	private int maxEvaluations;
-	private int hms;// Harmonic memory Size
-	private double par;// pitch adjusting rate
-	private double bw;// Bandwidth
-	private double hmcr;// Harmonic memory Consideration Rate
+	/**
+	 * Harmonic memory Size
+	 */
+	private int hms;
+	/**
+	 * pitch adjusting rate
+	 */
+	private double par;
+	/**
+	 * Bandwidth
+	 */
+	private double bw;
+	/**
+	 * Harmonic memory Consideration Rate
+	 */
+	private double hmcr;
 	private SolutionListEvaluator<DoubleSolution> evaluator;
 
 	public HSBuilder(DoubleProblem problem) {

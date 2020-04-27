@@ -1,7 +1,6 @@
 package co.edu.unicauca.dataset;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Serializable;
@@ -36,7 +35,7 @@ public class DataSet implements Serializable {
 	/**
 	 * Data, every column represents an instance
 	 */
-	private DenseMatrix x;
+	private transient DenseMatrix x;
 	/**
 	 * Result for i-th column of instance X, it represents the class atribute
 	 */
@@ -118,11 +117,9 @@ public class DataSet implements Serializable {
 		return index;
 	}
 
-	private void loadInstances(int resulIndex) throws FileNotFoundException, IOException {
-
-		BufferedReader br = null;
-		FileReader fr = null;
-
+	private void loadInstances(int resulIndex) throws IOException {
+		BufferedReader br;
+		FileReader fr;
 		fr = new FileReader(path + "/" + fileName);
 		br = new BufferedReader(fr);
 		String[] firstRow = br.readLine().split(" ");

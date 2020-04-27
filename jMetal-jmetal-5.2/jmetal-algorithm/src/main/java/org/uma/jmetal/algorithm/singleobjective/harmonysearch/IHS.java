@@ -22,14 +22,29 @@ public final class IHS extends AbstractHarmonySearch<DoubleSolution, DoubleSolut
 	 * -------------------------------------------------------------------------
 	 */
 	private static final long serialVersionUID = 1L;
+
+	// Parametters ------------
+
 	/**
-	 * Parametters ------------
+	 * Harmony memory Consideration Rate
 	 */
-	private double hmcr;// Harmony memory Consideration Rate
-	private double parMin;// pitch adjusting rate minimum
-	private double parMax;// pitch adjusting rate minimum
-	private double bwMin;// Bandwidth minimum
-	private double bwMax;// Bandwidth maximun
+	private double hmcr;
+	/**
+	 * pitch adjusting rate minimum
+	 */
+	private double parMin;
+	/**
+	 * pitch adjusting rate minimum
+	 */
+	private double parMax;
+	/**
+	 * Bandwidth minimum
+	 */
+	private double bwMin;
+	/**
+	 * Bandwidth maximun
+	 */
+	private double bwMax;
 
 	/**/
 	public double c;

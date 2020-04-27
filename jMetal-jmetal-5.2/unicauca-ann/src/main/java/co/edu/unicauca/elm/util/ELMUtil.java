@@ -5,6 +5,11 @@ import co.edu.unicauca.elm.ELM;
 import co.edu.unicauca.elm.ELM.ELMType;
 
 public class ELMUtil {
+
+	private ELMUtil() {
+		throw new IllegalStateException("Utility class");
+	}
+
 	/**
 	 * Obtains elm type given a data set
 	 * 

@@ -27,9 +27,18 @@ public class HS extends AbstractHarmonySearch<DoubleSolution, DoubleSolution> {
 	/**
 	 * Parameters
 	 */
-	private double par;// pitch adjusting rate
-	private double bw;// Bandwidth
-	private double hmcr;// Harmony memory Consideration Rate
+	/**
+	 * pitch adjusting rate
+	 */
+	private double par;
+	/**
+	 * Bandwidth
+	 */
+	private double bw;
+	/**
+	 * Harmony memory Consideration Rate
+	 */
+	private double hmcr;
 	private JMetalRandom randomGenerator;
 
 	/**

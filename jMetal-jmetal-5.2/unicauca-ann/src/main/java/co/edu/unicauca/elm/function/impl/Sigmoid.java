@@ -5,7 +5,12 @@ import co.edu.unicauca.elm.function.ELMFunction;
 
 public class Sigmoid implements ELMFunction
 {
-    @Override
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Override
     public double evaluate(double x) 
     {
         double exp = Math.exp(-x) + 1;
