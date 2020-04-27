@@ -7,8 +7,14 @@ import co.edu.unicauca.problem.AbstractELMEvaluator;
 import java.io.IOException;
 
 public class Cpu extends AbstractCrossValidationEvaluator {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
-    public Cpu() throws IOException {
-        super(AbstractELMEvaluator.EvaluatorType.CV, "Cpu", new DataSet("src/resources-elm", "cpu.train", 6), new DataSet("src/resources-elm", "cpu.test", 6), 10, 50, new Sigmoid(), new MultiplicationMethod(null), 3000);
-    }
+	public Cpu() throws IOException {
+		super(AbstractELMEvaluator.EvaluatorType.CV, "Cpu", new DataSet("src/resources-elm", "cpu.train", 6),
+				new DataSet("src/resources-elm", "cpu.test", 6), 10, 50, new Sigmoid(), new MultiplicationMethod(null),
+				3000);
+	}
 }

@@ -8,8 +8,15 @@ import co.edu.unicauca.problem.AbstractELMEvaluator;
 import java.io.IOException;
 
 public class Dermatology extends AbstractCrossValidationEvaluator {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
-    public Dermatology() throws IOException {
-        super(AbstractELMEvaluator.EvaluatorType.CV, "Dermatology", new DataSet("src/resources-elm", "dermatology.train", 34), new DataSet("src/resources-elm", "dermatology.test", 34), 10, 50, new Sigmoid(), new MultiplicationMethod(null), 3000);
-    }
+	public Dermatology() throws IOException {
+		super(AbstractELMEvaluator.EvaluatorType.CV, "Dermatology",
+				new DataSet("src/resources-elm", "dermatology.train", 34),
+				new DataSet("src/resources-elm", "dermatology.test", 34), 10, 50, new Sigmoid(),
+				new MultiplicationMethod(null), 3000);
+	}
 }

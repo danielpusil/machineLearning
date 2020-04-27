@@ -8,7 +8,12 @@ import java.io.IOException;
 
 public class Climatesimulation extends AbstractCrossValidationEvaluator {
 
-    public Climatesimulation() throws IOException {
-        super(AbstractELMEvaluator.EvaluatorType.CV, "ClimateSimulation", new DataSet("src/resources-elm", "climatesimulation.train", 18), new DataSet("src/resources-elm", "climatesimulation.test", 18), 10, 50, new Sigmoid(), new MultiplicationMethod(null), 3000);
-    }
+	private static final long serialVersionUID = 1L;
+
+	public Climatesimulation() throws IOException {
+		super(AbstractELMEvaluator.EvaluatorType.CV, "ClimateSimulation",
+				new DataSet("src/resources-elm", "climatesimulation.train", 18),
+				new DataSet("src/resources-elm", "climatesimulation.test", 18), 10, 50, new Sigmoid(),
+				new MultiplicationMethod(null), 3000);
+	}
 }

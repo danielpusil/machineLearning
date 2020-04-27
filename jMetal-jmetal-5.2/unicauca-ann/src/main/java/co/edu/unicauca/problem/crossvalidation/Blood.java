@@ -7,8 +7,14 @@ import co.edu.unicauca.problem.AbstractELMEvaluator;
 import java.io.IOException;
 
 public class Blood extends AbstractCrossValidationEvaluator {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
-    public Blood() throws IOException {
-        super(AbstractELMEvaluator.EvaluatorType.CV, "Blood", new DataSet("src/resources-elm", "blood.train", 4), new DataSet("src/resources-elm", "blood.test", 4), 10, 50, new Sigmoid(), new MultiplicationMethod(null), 3000);
-    }
+	public Blood() throws IOException {
+		super(AbstractELMEvaluator.EvaluatorType.CV, "Blood", new DataSet("src/resources-elm", "blood.train", 4),
+				new DataSet("src/resources-elm", "blood.test", 4), 10, 50, new Sigmoid(),
+				new MultiplicationMethod(null), 3000);
+	}
 }

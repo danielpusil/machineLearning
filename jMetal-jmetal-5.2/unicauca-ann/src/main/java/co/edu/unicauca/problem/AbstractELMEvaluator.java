@@ -18,6 +18,11 @@ public abstract class AbstractELMEvaluator extends AbstractDoubleProblem {
 	 */
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
 	 * Evaluator's type
 	 */
 	public enum EvaluatorType {

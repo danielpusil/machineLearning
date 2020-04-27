@@ -8,8 +8,15 @@ import java.io.IOException;
 
 public class AutoMpg extends AbstractCrossValidationEvaluator {
 
-    public AutoMpg() throws IOException {
-        super(AbstractELMEvaluator.EvaluatorType.CV, "AutoMpg", new DataSet("src/resources-elm", "autoMpg.train", 7), new DataSet("src/resources-elm", "autoMpg.test", 7), 10, 50, new Sigmoid(), new MultiplicationMethod(null), 3000);
-    }
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public AutoMpg() throws IOException {
+		super(AbstractELMEvaluator.EvaluatorType.CV, "AutoMpg", new DataSet("src/resources-elm", "autoMpg.train", 7),
+				new DataSet("src/resources-elm", "autoMpg.test", 7), 10, 50, new Sigmoid(),
+				new MultiplicationMethod(null), 3000);
+	}
 
 }

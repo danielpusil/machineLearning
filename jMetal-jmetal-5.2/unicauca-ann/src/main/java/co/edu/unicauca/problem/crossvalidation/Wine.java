@@ -7,8 +7,14 @@ import co.edu.unicauca.problem.AbstractELMEvaluator;
 import java.io.IOException;
 
 public class Wine extends AbstractCrossValidationEvaluator {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
-    public Wine() throws IOException {
-        super(AbstractELMEvaluator.EvaluatorType.CV, "Wine", new DataSet("src/resources-elm", "wine.train", 13), new DataSet("src/resources-elm", "wine.test", 13), 10, 50, new Sigmoid(), new MultiplicationMethod(null), 3000);
-    }
+	public Wine() throws IOException {
+		super(AbstractELMEvaluator.EvaluatorType.CV, "Wine", new DataSet("src/resources-elm", "wine.train", 13),
+				new DataSet("src/resources-elm", "wine.test", 13), 10, 50, new Sigmoid(),
+				new MultiplicationMethod(null), 3000);
+	}
 }

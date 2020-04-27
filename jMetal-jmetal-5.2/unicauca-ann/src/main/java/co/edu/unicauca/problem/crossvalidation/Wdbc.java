@@ -7,8 +7,14 @@ import co.edu.unicauca.problem.AbstractELMEvaluator;
 import java.io.IOException;
 
 public class Wdbc extends AbstractCrossValidationEvaluator {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
-    public Wdbc() throws IOException {
-        super(AbstractELMEvaluator.EvaluatorType.CV, "Wdbc", new DataSet("src/resources-elm", "wdbc.train", 30), new DataSet("src/resources-elm", "wdbc.test", 30), 10, 50, new Sigmoid(), new MultiplicationMethod(null), 3000);
-    }
+	public Wdbc() throws IOException {
+		super(AbstractELMEvaluator.EvaluatorType.CV, "Wdbc", new DataSet("src/resources-elm", "wdbc.train", 30),
+				new DataSet("src/resources-elm", "wdbc.test", 30), 10, 50, new Sigmoid(),
+				new MultiplicationMethod(null), 3000);
+	}
 }
