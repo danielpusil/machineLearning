@@ -1,16 +1,12 @@
 package co.edu.unicauca.elm;
 
+import java.io.Serializable;
+
+import co.edu.unicauca.elm.function.ELMFunction;
 import co.edu.unicauca.matrix.util.MatrixUtil;
-import co.edu.unicauca.moore_penrose.AbstractMoorePenroseMethod;
+import co.edu.unicauca.moorepenrose.AbstractMoorePenroseMethod;
 import no.uib.cipr.matrix.DenseMatrix;
 import no.uib.cipr.matrix.DenseVector;
-
-import java.io.Serializable;
-import java.util.logging.Logger;
-
-import org.uma.jmetal.measure.impl.MeasureFactory;
-
-import co.edu.unicauca.elm_function.ELMFunction;
 import no.uib.cipr.matrix.Matrix;
 
 /**

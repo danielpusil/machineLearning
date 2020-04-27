@@ -1,15 +1,9 @@
 package co.edu.unicauca.exec;
 
-import co.edu.unicauca.elm.ELM;
-import co.edu.unicauca.factory.algorithm.AlgorithmFactory;
-import co.edu.unicauca.factory.parameters.FileParametersFactory;
-import co.edu.unicauca.problem.AbstractELMEvaluator;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.problem.DoubleProblem;
@@ -17,6 +11,10 @@ import org.uma.jmetal.solution.DoubleSolution;
 import org.uma.jmetal.util.AlgorithmRunner;
 import org.uma.jmetal.util.ProblemUtils;
 import org.uma.jmetal.util.pseudorandom.JMetalRandom;
+
+import co.edu.unicauca.factory.algorithm.AlgorithmFactory;
+import co.edu.unicauca.factory.parameters.FileParametersFactory;
+import co.edu.unicauca.problem.AbstractELMEvaluator;
 
 public class Run {
 
